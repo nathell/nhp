@@ -73,13 +73,19 @@
 
 (def upcoming-talks
   [{:title "NVC: protokół komunikacji człowiek–człowiek"
+    :event "WRUG"
+    :event-url "https://wrug.eu"
+    :city "Warsaw"
+    :date "2019-06-19"}])
+
+(def past-talks
+  [{:title "NVC: protokół komunikacji człowiek–człowiek"
+    :url "talks/2019-warsawjs"
     :event "WarsawJS"
     :event-url "https://warsawjs.com"
     :city "Warsaw"
-    :date "2019-05-08"}])
-
-(def past-talks
-  [{:title "Skyscraper: Restructuring the web"
+    :date "2019-05-08"}
+   {:title "Skyscraper: Restructuring the web"
     :url "talks/reveal.js/2016-clojurex.html"
     :event "Clojure eXchange"
     :event-url "https://skillsmatter.com/conferences/7430-clojure-exchange-2016"
