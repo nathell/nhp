@@ -1,0 +1,286 @@
+$desktop: 960px
+
+=mobile
+  @media screen and (max-width: $desktop - 1px)
+    @content
+
+=desktop
+  @media screen and (min-width: $desktop)
+    @content
+
+$pale: #F5EBB0
+$purple: #7F4B61
+$black: #333
+$gray: lighten($black, 20)
+$light-gray: lighten($black, 50)
+
+@font-face
+  font-family: 'Bona Nova'
+  font-style: normal
+  font-weight: 700
+  src: local('Bona Nova Bold')
+  src: url('../fonts/BonaNova-Bold.woff2') format('woff2')
+
+@font-face
+  font-family: 'Bona Nova'
+  font-style: normal
+  font-weight: 400
+  src: local('Bona Nova Regular')
+  src: url('../fonts/BonaNova-Regular.woff2') format('woff2')
+
+@font-face
+  font-family: 'Bona Nova'
+  font-style: italic
+  font-weight: 400
+  src: local('Bona Nova Italic')
+  src: url('../fonts/BonaNova-Italic.woff2') format('woff2')
+
+html
+  margin: 0
+  font-family: Bona Nova, Times New Roman, serif
+  background: $pale
+  color: $black
+  display: flex
+  justify-content: center
+
+body
+  width: 100%
+  max-width: 1200px
+  flex: 1
+  margin: 0
+
+.home
+  +desktop
+    flex: 1
+    display: grid
+    grid-template-columns: 1fr 320px
+    grid-template-rows: auto auto
+    .header
+      grid-area: 1 / 1 / 2 / 2
+    .photo
+      grid-area: 1 / 2 / 3 / 3
+
+.content
+  padding: 0 30px
+  +mobile
+    padding: 0 12px
+
+.photo
+  margin-top: 30px
+  +mobile
+    img
+      width: 200px
+      display: block
+      margin: 0 auto
+
+.main
+  justify-content: center
+
+p, ul, ol, .blog-navigation
+  font-size: 24px
+  +mobile
+    font-size: 18px
+  line-height: 1.5
+
+ul
+  list-style-type: none
+  padding-left: 32px
+  +mobile
+    padding-left: 18px
+
+a
+  color: $purple
+  text-decoration: none
+  &:hover
+    text-shadow: 0 0 3px $purple
+
+h1
+  text-align: center
+  letter-spacing: 3px
+  font-size: 72px
+  +mobile
+    font-size: 36px
+  font-variant: small-caps
+
+h2
+  font-size: 48px
+  +mobile
+    font-size: 30px
+  font-weight: 400
+
+.timeline-item
+  font-size: 30px
+  +mobile
+    font-size: 18px
+  display: flex
+  .year
+    text-align: right
+    padding-right: 36px
+    flex: 0
+    flex-basis: 120px
+    +mobile
+      padding-right: 18px
+      flex-basis: 60px
+    font-variant-numeric: lining-nums
+    font-weight: bold
+  .items
+    flex: 1
+  .talk
+    margin-bottom: 12px
+    .event
+      font-variant: small-caps
+  .event-line
+    font-size: 22px
+    +mobile
+      font-size: 14px
+
+.poems-list
+  ul
+    margin: 0 0 1em 0
+  .author
+    margin: 0
+    font-weight: bold
+
+.poem
+  max-width: 900px
+  margin: 0 auto
+  padding-top: 72px
+  +mobile
+    padding-top: 36px
+  .title, .author
+    line-height: 1.5
+    margin-top: 0
+    margin-bottom: 0.5em
+    text-align: center
+  .title
+    font-size: 60px
+    +mobile
+      font-size: 30px
+  .author
+    font-size: 36px
+    +mobile
+      font-size: 24px
+  .line
+    line-height: 1.5
+    min-height: 1rem
+    text-indent: -3em
+    margin: 0 0 0 3em
+
+.right
+  text-align: right
+
+.center
+  text-align: center
+
+.aside
+  width: 320px
+  flex: 0
+
+.original-title
+  font-style: italic
+
+.blog
+  padding: 0 18px
+  .blog-post
+    margin-top: 60px
+    +mobile
+      margin-top: 30px
+  h2.title
+    font-size: 48px
+    +mobile
+      font-size: 30px
+    font-weight: bold
+    font-variant-numeric: lining-nums
+    text-align: center
+    margin-bottom: 24px
+    code
+      font-size: 40px
+  h2
+    font-size: 30px
+    font-weight: bold
+  h3
+    font-size: 24px
+    font-weight: bold
+  .date
+    font-style: italic
+    text-align: center
+    margin: 0
+  .body, .blog-navigation, .blog-header
+    max-width: 800px
+    margin-left: auto
+    margin-right: auto
+  .blog-navigation
+    margin-bottom: 60px
+    +desktop
+      display: flex
+      .prev, .next
+        flex: 1
+    +mobile
+      .prev, .next
+        display: block
+        margin-bottom: 12px
+    .prev
+      text-align: left
+    .next
+      text-align: right
+  img
+    display: block
+    max-width: 100%
+    margin: 0 auto
+  code
+    padding: 0
+  ul
+    list-style-type: disc
+  table
+    margin: 0 auto
+    border-collapse: collapse
+    tr.header
+      border-bottom: 1px solid $black
+    th, td
+      padding: 6px 12px
+      font-variant-numeric: lining-nums
+      font-size: 24px
+    .center
+      text-align: center
+  pre
+    overflow-x: auto
+  pre, code
+    font-family: Ubuntu Mono, Monaco, Inconsolata, Consolas, monospace
+    font-size: 20px
+    line-height: 1.25
+  hr
+    border: none
+    width: 50%
+    border-bottom: 1px solid $black
+
+.blog-header
+  margin-top: 60px
+  +mobile
+    margin-top: 30px
+  width: 100%
+  display: flex
+  align-items: baseline
+  justify-content: space-between
+
+.blog-title
+  +mobile
+    display: none
+  .big
+    text-shadow: 0 0 2px $black
+    text-align: left
+    font-size: 30px
+    line-height: 1.25
+    margin: 0
+    font-style: italic
+  .small
+    margin: 0
+    letter-spacing: 1px
+    text-align: center
+    font-size: 18px
+
+.blog-header-menu
+  list-style-type: none
+  text-align: right
+  li
+    display: inline-block
+    margin-left: 18px
