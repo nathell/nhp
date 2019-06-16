@@ -35,7 +35,8 @@
        ", a concordancer for Polish"]
       [:li [:a {:href "wladcyslow"} "Word Champions"]
        ", a word game (Polish only)"]
-      [:li [:a {:href "https://github.com/nathell"} "GitHub projects"]]]]
+      [:li [:a {:href "https://github.com/nathell"} "GitHub projects"]]
+      [:li [:a {:href "documents/cv.pdf"} "My CV"]]]]
     [:section.writing
      [:h2 "Writing"]
      [:ul
