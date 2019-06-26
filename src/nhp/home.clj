@@ -11,8 +11,6 @@
     [:section.programming
      [:h2 "Programming"]
      [:ul
-      [:li [:a {:href "https://www.works-hub.com"} "WorksHub"]
-       ", where I work"]
       [:li [:a {:href "http://smyrna.danieljanus.pl"} "Smyrna"]
        ", a concordancer for Polish"]
       [:li [:a {:href "wladcyslow"} "Word Champions"]
