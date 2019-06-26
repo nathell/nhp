@@ -3,14 +3,16 @@
     [nhp.layout :as layout]))
 
 (def upcoming-talks
-  [{:title "NVC: protokół komunikacji człowiek–człowiek"
-    :event "WRUG"
-    :event-url "https://wrug.eu"
-    :city "Warsaw"
-    :date "2019-06-19"}])
+  [])
 
 (def past-talks
   [{:title "NVC: protokół komunikacji człowiek–człowiek"
+    :url "talks/2019-wrug"
+    :event "WRUG"
+    :event-url "https://wrug.eu"
+    :city "Warsaw"
+    :date "2019-06-19"}
+   {:title "NVC: protokół komunikacji człowiek–człowiek"
     :url "talks/2019-warsawjs"
     :event "WarsawJS"
     :event-url "https://warsawjs.com"
@@ -94,12 +96,14 @@
 
 (defn talks-list
   [talks]
-  [:div.timeline
-   (for [[year group] (group-by #(subs (:date %) 0 4) talks)]
-     [:div.timeline-item
-      [:div.year year]
-      [:div.items
-       (map talk group)]])])
+  (if-not (seq talks)
+    [:p "No upcoming talks."]
+    [:div.timeline
+     (for [[year group] (group-by #(subs (:date %) 0 4) talks)]
+       [:div.timeline-item
+        [:div.year year]
+        [:div.items
+         (map talk group)]])]))
 
 (defn talks-content []
   [:div.main.content.talks
