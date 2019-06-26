@@ -9,6 +9,7 @@
                  [markdown-clj "1.0.7"]
                  [me.raynes/fs "1.4.6"]]
   :plugins [[lein-sass "0.4.0"]]
+  :main nhp.core
   :sass {:src              "src/sass"
          :output-directory "out/css"}
   :repl-options {:init-ns nhp.core})
