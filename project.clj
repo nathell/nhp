@@ -7,7 +7,8 @@
                  [hiccup "2.0.0-alpha2"]
                  [io.forward/yaml "1.0.9"]
                  [markdown-clj "1.0.7"]
-                 [me.raynes/fs "1.4.6"]]
+                 [me.raynes/fs "1.4.6"]
+                 [reaver "0.1.2"]]
   :plugins [[lein-sass "0.4.0"]]
   :main nhp.core
   :sass {:src              "src/sass"

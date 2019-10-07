@@ -135,15 +135,19 @@
         :otherwise (recur (str result (first remaining))
                           (rest remaining))))))
 
+(defn contains-code? [blog]
+  (-> blog :content reaver/parse (reaver/select "code") boolean))
+
 (defn blog-page [[prev blog next]]
-  (layout/page {:title (get-in blog [:front-matter :title]),
-                :extra-head [:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]
-                :content [:div.main.blog
-                          (blog-header (:lang blog))
-                          (post blog)
-                          (note-navigation prev next)
-                          [:script {:src "/js/highlight.pack.js"}]
-                          [:script "hljs.initHighlightingOnLoad();"]]}))
+  (let [code? (contains-code? blog)]
+    (layout/page {:title (get-in blog [:front-matter :title]),
+                  :extra-head (when code? [:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}])
+                  :content [:div.main.blog
+                            (blog-header (:lang blog))
+                            (post blog)
+                            (note-navigation prev next)
+                            (when code? [:script {:src "/js/highlight.pack.js"}])
+                            (when code? [:script "hljs.initHighlightingOnLoad();"])]})))
 
 (defn emit-single-blog-pages [blogs]
   (doseq [[_ blog _ :as chunk] (partition 3 1 (concat [nil] blogs [nil]))
