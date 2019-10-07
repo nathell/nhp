@@ -63,6 +63,7 @@
 
 (defn read-all-blogs [lang]
   (->> (fs/list-dir (io/resource (str "blog/" lang)))
+       (filter #(string/ends-with? (str %) ".md"))
        (map #(assoc (read-blog %) :lang lang))
        (sort-by (comp :date :front-matter))
        reverse))
