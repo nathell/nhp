@@ -6,6 +6,7 @@
     [markdown.core :as markdown]
     [me.raynes.fs :as fs]
     [reaver]
+    [nhp.atom :as atom]
     [nhp.layout :as layout]
     [yaml.core :as yaml]))
 
@@ -83,10 +84,7 @@
    [:div.body content]
    extra])
 
-(defn blog-url [{{date :date} :front-matter, slug :slug}]
-  (format "/%s/%s/"
-          (t/format "yyyy/MM/dd" (t/local-date-time date "UTC"))
-          slug))
+(def blog-url atom/post-domainless-url)
 
 (defn page-url [i]
   (if (= i 1)
@@ -123,6 +121,7 @@
       [:li [:a {:href "//plblog.danieljanus.pl"} "blog po polsku"]])
     (when (= lang "pl")
       [:li [:a {:href "//blog.danieljanus.pl"} "English blog"]])
+    [:li [:a {:href "/atom.xml"} "RSS"]]
     [:li [:a {:href "//danieljanus.pl"} (get-in i18n [lang :home-page])]]]])
 
 (def min-content-length 200)
@@ -165,7 +164,8 @@
 
 (defn blog-multi-page [page-no page-count blogs]
   (layout/page {:title "Daniel Janus – blog"
-                :extra-head [:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]
+                :extra-head [[:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]
+                             [:link {:rel "alternate" :type "application/atom+xml" :href "/atom.xml"}]]
                 :content [:div.main.blog
                           (blog-header (:lang (first blogs)))
                           (map #(post (trim-blog %)) blogs)
@@ -183,10 +183,16 @@
       (layout/output-page (str "blog/" lang (page-url i) "index.html")
                           (blog-multi-page i page-count blogs)))))
 
+(defn emit-atom-feed [blogs]
+  (let [lang (:lang (first blogs))]
+    (layout/output-page (str "blog/" lang "/atom.xml")
+                        (atom/feed-string blogs))))
+
 (defn generate-blog [lang]
   (let [blogs (read-all-blogs lang)]
     (emit-multi-blog-pages blogs)
-    (emit-single-blog-pages blogs)))
+    (emit-single-blog-pages blogs)
+    (emit-atom-feed blogs)))
 
 (defn generate []
   (doseq [lang ["en" "pl"]]

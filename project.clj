@@ -3,6 +3,7 @@
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.10.0"]
+                 [org.clojure/data.xml "0.2.0-alpha6"]
                  [clojure.java-time "0.3.2"]
                  [hiccup "2.0.0-alpha2"]
                  [io.forward/yaml "1.0.9"]
