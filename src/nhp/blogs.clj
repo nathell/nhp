@@ -5,9 +5,9 @@
     [java-time :as t]
     [markdown.core :as markdown]
     [me.raynes.fs :as fs]
-    [reaver]
     [nhp.atom :as atom]
     [nhp.layout :as layout]
+    [reaver]
     [yaml.core :as yaml]))
 
 (defn instant->local-date
@@ -141,7 +141,7 @@
 (defn blog-page [[prev blog next]]
   (let [code? (contains-code? blog)]
     (layout/page {:title (get-in blog [:front-matter :title]),
-                  :extra-head (when code? [:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}])
+                  :extra-head (when code? [[:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]])
                   :content [:div.main.blog
                             (blog-header (:lang blog))
                             (post blog)
