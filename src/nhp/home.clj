@@ -14,7 +14,7 @@
       [:li [:a {:href "http://smyrna.danieljanus.pl"} "Smyrna"]
        ", a concordancer for Polish"]
       [:li [:a {:href "wladcyslow"} "Word Champions"]
-       ", a word game (Polish only)"]
+       ", a word game"]
       [:li [:a {:href "https://github.com/nathell"} "GitHub projects"]]
       [:li [:a {:href "documents/cv.pdf"} "My CV"]]]]
     [:section.writing
