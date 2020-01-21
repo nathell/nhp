@@ -16,7 +16,7 @@ It’s been a long journey and I’ll blog about it someday; but today, I’d li
 
 While updating the code of one of my old scrapers to use the API of Skyscraper 0.3, I noticed an odd thing: some of the output records contained scrambled text. Apparently, the character encoding was not recognised properly.
 
-“Weird,” I thought. Skyscraper should be extra careful about honoring the encoding of pages being scraped (either declared in the headers or the `<meta http-equiv>` tag). In fact, I remembered seeing it working. What was wrong?
+“Weird,” I thought. Skyscraper should be extra careful about honoring the encoding of pages being scraped (declared either in the headers, or the `<meta http-equiv>` tag). In fact, I remembered having seen it working. What was wrong?
 
 For every page that it downloads, Skyscraper 0.3 caches the HTTP response body along with the headers so that it doesn’t have to be downloaded again; the headers are needed to ensure proper encoding when parsing a cached page. The headers are lower-cased, so that Skyscraper can then call `(get all-headers "content-type")` to get the encoding declared in headers. If this step is missed, and the server returns the encoding in a header named `Content-Type`, it won’t be matched. Kaboom!
 
@@ -48,7 +48,7 @@ See that `request-fn`? Even though Skyscraper uses `http/request` by default, yo
 
 Or is it?
 
-Let me show you how `with-additional-middleware` is implemented. It expands to another macro, `with-middleware`, whose definition is this (docstring redacted):
+Let me show you how `with-additional-middleware` is implemented. It expands to another macro, `with-middleware`, which is defined as follows (docstring redacted):
 
 ```clojure
 (defmacro with-middleware
@@ -61,10 +61,9 @@ Let me show you how `with-additional-middleware` is implemented. It expands to a
        ~@body)))
 ```
 
-That’s right: the way `with-middleware` works is by dynamically rebinding `http/request`. Which means the `request-fn` I was calling is not actually the wrapped version, but the one captured by
-the outer `let`, the one that wasn’t rebound, the one without the additional middleware!
+That’s right: `with-middleware` works by dynamically rebinding `http/request`. Which means the `request-fn` I was calling is not actually the wrapped version, but the one captured by the outer `let`, the one that wasn’t rebound, the one without the additional middleware!
 
-After this lit bulb hovered above my head, I moved `with-additional-middleware` outside of the `let`:
+After this light-bulb moment, I moved `with-additional-middleware` outside of the `let`:
 
 ```clojure
 (http/with-additional-middleware [http/wrap-lower-case-headers]
@@ -114,7 +113,7 @@ I stripped out the `with-additional-middleware` altogether, added some code else
 
 Moral of the story? It’s twofold.
 
- - Dynamic rebinding can be dangerous. Having a public API that is implemented in terms of dynamic rebinding, even more so. I’d prefer if clj-http just allowed the custom middleware to be explicitly specified as a parameter, thusly:
+ - Dynamic rebinding can be dangerous. Having a public API that is implemented in terms of dynamic rebinding, even more so. I’d prefer if clj-http just allowed the custom middleware to be explicitly specified as an argument, thusly:
 ```clojure
 (http/request req
               :additional-middleware [http/wrap-lower-case-headers])
@@ -123,6 +122,9 @@ Moral of the story? It’s twofold.
 
  - Know your dependencies. If you have a problem that might be generically addressed by the library you’re using, look deeper. It might be there already.
 
+Thanks to [3Jane][4] for proofreading this article.
+
  [1]: https://github.com/nathell/skyscraper
  [2]: https://github.com/dakrone/clj-http
  [3]: http://clojure-doc.org/articles/cookbooks/middleware.html
+ [4]: https://www.3jane.co.uk
