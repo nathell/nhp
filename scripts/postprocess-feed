@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# This script is needed because some Atom parsers don't like
+# namespaced tags, even though it's valid XML and thus valid Atom.
+# To be removed when https://clojure.atlassian.net/browse/DXML-52
+# is implemented.
+
+find $1 -name atom.xml | while read file; do
+     sed -ire 's,<a:,<,g;s,</a:,</,g;s,xmlns:a=,xmlns=,g' $file
+     xmllint --noout $file
+done
