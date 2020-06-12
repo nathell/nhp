@@ -6,7 +6,13 @@
   [])
 
 (def past-talks
-  [{:title "NVC: protokół komunikacji człowiek–człowiek"
+  [{:title "Skyscraper 0.3: Ascending to the next floor"
+    :url "talks/2020-clojured"
+    :event ":clojureD"
+    :event-url "https://clojured.de/media/videos/videos-2020/"
+    :city "Berlin"
+    :date "2020-02-29"}
+   {:title "NVC: protokół komunikacji człowiek–człowiek"
     :url "talks/2019-wrug"
     :event "WRUG"
     :event-url "https://wrug.eu"
