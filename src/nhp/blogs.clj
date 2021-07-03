@@ -61,7 +61,7 @@
     {:file filename
      :slug (-> filename io/file .getName (subs 11) (chop 3))
      :front-matter (yaml/parse-string front-matter)
-     :content (markdown/md-to-html-string content :reference-links? true :custom-transformers [unsierotkize-paragraph])}))
+     :content (markdown/md-to-html-string content :reference-links? true :footnotes? true :custom-transformers [unsierotkize-paragraph])}))
 
 (defn read-all-blogs [lang]
   (->> (fs/list-dir (io/resource (str "blog/" lang)))
