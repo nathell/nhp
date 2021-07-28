@@ -100,7 +100,7 @@
                 :content (poems-list)}))
 
 (defn generate []
-  (layout/output-page "translations/index.html" (poems-page))
+  (layout/output-page "danieljanus.pl/translations/index.html" (poems-page))
   (doseq [{:keys [path file] :as version} (poem-versions)]
-    (let [output-file (str "translations/" path "/" (string/replace file ".txt" ".html"))]
+    (let [output-file (str "danieljanus.pl/translations/" path "/" (string/replace file ".txt" ".html"))]
       (layout/output-page output-file (poem-page (read-poem version))))))

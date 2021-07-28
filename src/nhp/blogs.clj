@@ -34,6 +34,9 @@
          :next-page "Następne notki"
          :prev-page "Poprzednie notki"}})
 
+(def lang->domain {"en" "blog.danieljanus.pl"
+                   "pl" "plblog.danieljanus.pl"})
+
 (defn date-gen
   [f d]
   (let [[d m y] (-> d t/instant instant->local-date (t/as :day-of-month :month-of-year :year))]
@@ -153,7 +156,7 @@
   (doseq [[_ blog _ :as chunk] (partition 3 1 (concat [nil] blogs [nil]))
           :let [url (blog-url blog)
                 lang (:lang blog)]]
-    (layout/output-page (str "blog/" lang url "index.html")
+    (layout/output-page (str (lang->domain lang) url "index.html")
                         (blog-page chunk))))
 
 (defn trim-blog [{:keys [lang] :as blog}]
@@ -180,12 +183,12 @@
         pages (partition-all entries-per-page blogs)
         page-count (count pages)]
     (doseq [[i blogs] (map-indexed (fn [i v] [(inc i) v]) pages)]
-      (layout/output-page (str "blog/" lang (page-url i) "index.html")
+      (layout/output-page (str (lang->domain lang) (page-url i) "index.html")
                           (blog-multi-page i page-count blogs)))))
 
 (defn emit-atom-feed [blogs]
   (let [lang (:lang (first blogs))]
-    (layout/output-page (str "blog/" lang "/atom.xml")
+    (layout/output-page (str (lang->domain lang) "/atom.xml")
                         (atom/feed-string blogs))))
 
 (defn generate-blog [lang]

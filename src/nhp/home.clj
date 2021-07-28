@@ -43,4 +43,4 @@
   (layout/page {:content (home-content)}))
 
 (defn generate []
-  (layout/output-page "index.html" (home-page)))
+  (layout/output-page "danieljanus.pl/index.html" (home-page)))

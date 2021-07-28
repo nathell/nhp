@@ -14,5 +14,5 @@
   :plugins [[lein-sass "0.4.0"]]
   :main nhp.core
   :sass {:src              "src/sass"
-         :output-directory "out/css"}
+         :output-directory "resources/css"}
   :repl-options {:init-ns nhp.core})

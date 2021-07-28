@@ -127,4 +127,4 @@
                 :content (talks-content)}))
 
 (defn generate []
-  (layout/output-page "talks.html" (talks-page)))
+  (layout/output-page "danieljanus.pl/talks.html" (talks-page)))
