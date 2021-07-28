@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Load the JS file -->
+  <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+</head>
+<body>
+  <!-- DOM element in which we'll mount our graph -->
+  <div id="graph-container"></div>
+
+  <!-- Use the `GitgraphJS` global variable to create your graph -->
+  <script>
+    const graphContainer = document.getElementById("graph-container");
+    const gitgraph = GitgraphJS.createGitgraph(graphContainer, {orientation: "horizontal", style: {dot: {size: 16}}});
+
+    // Simulate git commands with Gitgraph API.
+    const main = gitgraph.branch("main");
+    main.commit({dotText: "1", style: {dot: {fill: "white"}}}).commit({dotText: "2"}).commit({dotText: "3"});
+
+    main.commit({dotText: "7"}).commit({dotText: "8"});
+
+    main.commit({dotText: "S"});
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+</head>
+<body>
+  <div id="graph-container"></div>
+  <script>
+    const graphContainer = document.getElementById("graph-container");
+    const gitgraph = GitgraphJS.createGitgraph(graphContainer, {orientation: "horizontal", style: {dot: {size: 16}}});
+
+    // Simulate git commands with Gitgraph API.
+    const main = gitgraph.branch("main");
+    main.commit({dotText: "1", style: {dot: {fill: "white"}}}).commit({dotText: "2"}).commit({dotText: "3"});
+
+    const aFeature = main.branch("feature");
+    aFeature.commit({dotText: "4"}).commit({dotText: "5"}).commit({dotText: "6"})
+
+    main.commit({dotText: "7"}).commit({dotText: "8"});
+
+    // main.merge(aFeature);
+  </script>
+</body>
+</html>
