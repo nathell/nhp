@@ -11,6 +11,7 @@
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
      [:link {:rel "stylesheet" :type "text/css" :href "/css/nhp.css"}]
+     [:link {:rel "icon" :type "image/svg+xml" :href "data:image/svg+xml,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'><text%20x='0'%20y='14'>DJ</text></svg>"}]
      [:title (or title "Daniel Janus")]]
     extra-head)
    [:body
