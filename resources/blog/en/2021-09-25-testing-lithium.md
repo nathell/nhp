@@ -1,6 +1,6 @@
 ---
 date: 2021-09-25
-title: "Testing a compiler that can’t even print out stuff"
+title: "Testing a compiler that can’t even print stuff out"
 categories: Clojure programming
 ---
 
@@ -36,7 +36,7 @@ Yes, you’re right: the simplest thing (DOS redirection to a file, as in `PROG.
 
 My original idea was… SCREEN CAPTURE!
 
-I’ve scavenged Google for a DOS screen grabber that can produce text files and is not a TSR, bundled it with Lithium, and wrote [some duct-tape code][7] that invokes the compiled program and the screen grabber in turn and then parses the output. With that, I can finally have [tests][8] that check whether `(+ 3 4)` is really `7`.
+I’ve scavenged Google for a DOS screen grabber that can produce text files and is not a TSR, [found one][7], bundled it with Lithium, and wrote [some duct-tape code][8] that invokes the compiled program and the screen grabber in turn and then parses the output. With that, I can finally have [tests][9] that check whether `(+ 3 4)` is really `7`.
 
 And now let me go refactor it…
 
@@ -46,5 +46,6 @@ And now let me go refactor it…
  [4]: http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf
  [5]: http://www.fysnet.net/yourhelp.htm
  [6]: https://github.com/nathell/lithium/commit/27563b3c5b92f32b24f750d98248d013f924a700
- [7]: https://github.com/nathell/lithium/blob/27563b3c5b92f32b24f750d98248d013f924a700/src/lithium/driver.clj#L23-L36
- [8]: https://github.com/nathell/lithium/blob/27563b3c5b92f32b24f750d98248d013f924a700/test/lithium/compiler_test.clj
+ [7]: http://www.pc-tools.net/dos/dosutils/
+ [8]: https://github.com/nathell/lithium/blob/27563b3c5b92f32b24f750d98248d013f924a700/src/lithium/driver.clj#L23-L36
+ [9]: https://github.com/nathell/lithium/blob/27563b3c5b92f32b24f750d98248d013f924a700/test/lithium/compiler_test.clj
