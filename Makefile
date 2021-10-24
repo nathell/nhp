@@ -8,6 +8,6 @@ sass:
 	lein sass once
 
 deploy: build sass
-	rsync -avz out/ nathell@danieljanus.pl:www/nhp
+	rsync -avz out/ nathell@danieljanus.pl:/var/www
 
 .PHONY: all deploy build build-sass
