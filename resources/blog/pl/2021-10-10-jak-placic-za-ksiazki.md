@@ -20,18 +20,12 @@ Pomijając wszystkie niedostatki kapitalizmu, cierpimy jako społeczeństwo — 
 
 Z jednej strony wielbimy (słusznie!) biblioteki jako świątynie kultury i wiedzy. Ich rola jako instytucji kulturo- i socjotwórczych jest nie do przecenienia. Z drugiej strony krzywimy się (też nie bez racji), kiedy ktoś nielegalnie ściąga e-booka z internetu: to złamanie umowy społecznej.
 
-A tymczasem z punktu widzenia autora zysk z takiego czytelnika jest w obu przypadkach dokładnie taki sam: zero, nic, null, nada, żodyn.
+A tymczasem z punktu widzenia autora zysk z takiego czytelnika jest <strike>w obu przypadkach dokładnie taki sam: zero, nic, null, nada, żodyn</strike> w drugim przypadku zerowy, zaś w pierwszym — na ogół niższy, niż gdyby kupił on książkę w księgarni.
 
-Bardziej obrazowo: wyobraźmy sobie trzy książki — A, B i C. Każda z nich kosztuje 30 zł, zarówno w wersji papierowej, jak i e-bookowej.
+(W tym miejscu w oryginalnym poście był przykład z trzema książkami, tyleż obrazowy, co nieprawdziwy. Od kilku lat funkcjonuje w Polsce [system wynagrodzeń dla autorów i wydawców książek][-2], stanowiący realizację koncepcji [Public Lending Right][-1]. Ponadto, jak zwraca uwagę [Koziołek na Twitterze][0], biblioteki nie płacą za książki cen okładkowych, tylko wyższe, obejmujące biblioteczne opłaty licencyjne. To oczywiście osłabia wagę tej argumentacji, ale sami oceńcie, jak bardzo.)
 
-- Książka A sprzedała się w księgarniach w nakładzie 1000 egzemplarzy. Każdy z nich przeczytała jedna osoba.
-- Książka B sprzedała się tylko w liczbie 200 egzemplarzy, ale 20 z nich kupiły biblioteki. Każdy egzemplarz biblioteczny wypożyczyło i przeczytało 41 osób.
-- Książki C też kupiono tylko 200 egzemplarzy. Jednak jeden z nabywców zeskanował i zOCRował książkę, umieszczając tak powstałego e-booka w internecie. Ten plik następnie ściągnęło i przeczytało 800 osób.
-
-Efekt? Wszystkie trzy książki cieszą się dokładnie takim samym czytelnictwem (1000 osób), ale sprzedaż książki A przyniosła przychód 30 tys. zł, a książek B i C po 6 tys. Równocześnie w scenariuszach A i B nikt nie złamał prawa, zaś w scenariuszu C — tak. Nie wydaje mi się to sprawiedliwe.
-
-(Edycja: [Koziołek zwraca uwagę na Twitterze][0], że biblioteki nie płacą za książki cen okładkowych, tylko wyższe, obejmujące biblioteczne opłaty licencyjne. To oczywiście osłabia wagę tej argumentacji, ale sami oceńcie, jak bardzo.)
-
+ [-2]: https://copyrightpolska.pl
+ [-1]: https://pl.wikipedia.org/wiki/Public_Lending_Right
  [0]: https://twitter.com/koziolek/status/1447274466195738634
 
 Pamiętacie akcję [„Strata Kazika”][1]? Pokazuje ona dość dobitnie, że samo skopiowanie treści cyfrowej (czy to legalnie, czy nie) nie jest samo w sobie szczególnie doniosłym aktem. Pendrive wypełniony trzydziestoma tysiącami książek, zalegający na dnie szuflady, nie jest automatycznie wart kilkaset tysięcy złotych. Jeśli ktoś przeczyta cztery z tych książek, to tylko te cztery będą przedstawiać sobą jakąkolwiek wartość. Książka wnosi wartość w życie czytelnika nie wtedy, kiedy wchodzi w jego posiadanie, tylko _w procesie czytania_.
