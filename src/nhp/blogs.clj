@@ -6,6 +6,7 @@
     [markdown.core :as markdown]
     [me.raynes.fs :as fs]
     [nhp.atom :as atom]
+    [nhp.gemini :as gemini]
     [nhp.layout :as layout]
     [reaver]
     [yaml.core :as yaml]))
@@ -186,6 +187,21 @@
       (layout/output-page (str (lang->domain lang) (page-url i) "index.html")
                           (blog-multi-page i page-count blogs)))))
 
+(defn gemini-blog-index [blogs]
+  (string/join "\n"
+               (map (fn [{{:keys [title date]} :front-matter, lang :lang, :as blog}]
+                      (format "=> %s/index.gmi %s – %s" (subs (blog-url blog) 1) (subs (pr-str date) 7 17) title))
+                    blogs)))
+
+(defn emit-gemini-blog [blogs]
+  (doseq [blog blogs
+          :let [url (blog-url blog)
+                lang (:lang blog)]]
+    (layout/output-page (str "gemini/blog/" lang "/" url "index.gmi")
+                        (gemini/blog->gemtext blog)))
+  (layout/output-page (str "gemini/blog/" (:lang (first blogs)) "/index.gmi")
+                      (gemini-blog-index blogs)))
+
 (defn emit-atom-feed [blogs]
   (let [lang (:lang (first blogs))]
     (layout/output-page (str (lang->domain lang) "/atom.xml")
@@ -195,7 +211,8 @@
   (let [blogs (read-all-blogs lang)]
     (emit-multi-blog-pages blogs)
     (emit-single-blog-pages blogs)
-    (emit-atom-feed blogs)))
+    (emit-atom-feed blogs)
+    (emit-gemini-blog blogs)))
 
 (defn generate []
   (doseq [lang ["en" "pl"]]
