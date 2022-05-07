@@ -3,6 +3,7 @@
     [clojure.java.io :as io]
     [me.raynes.fs :as fs]
     [nhp.blogs :as blogs]
+    [nhp.czytatki :as czytatki]
     [nhp.home :as home]
     [nhp.poems :as poems]
     [nhp.talks :as talks]))
@@ -18,4 +19,5 @@
   (home/generate)
   (talks/generate)
   (poems/generate)
-  (blogs/generate))
+  (blogs/generate)
+  (czytatki/generate))
