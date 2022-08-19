@@ -15,8 +15,9 @@
        ", a concordancer for Polish"]
       [:li [:a {:href "wladcyslow"} "Word Champions"]
        ", a word game"]
-      [:li [:a {:href "https://github.com/nathell"} "GitHub projects"]]
-      [:li [:a {:href "documents/cv.pdf"} "My CV"]]]]
+      [:li [:a {:href "autosummarized-hn"} "Autosummarized Hacker News"]
+       " (with GPT-3)"]
+      [:li [:a {:href "https://github.com/nathell"} "GitHub projects"]]]]
     [:section.writing
      [:h2 "Writing"]
      [:ul
