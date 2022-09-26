@@ -3,7 +3,11 @@
     [nhp.layout :as layout]))
 
 (def upcoming-talks
-  [])
+  [{:title "Golfing Clojure: Check Checker under 280 characters of Clojure"
+    :event "Dutch Clojure Days"
+    :event-url "https://clojuredays.org/"
+    :city "Amsterdam"
+    :date "2022-10-29"}])
 
 (def past-talks
   [{:title "Skyscraper 0.3: Ascending to the next floor"
