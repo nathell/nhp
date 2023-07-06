@@ -111,7 +111,8 @@
   (if-not (seq talks)
     [:p "No upcoming talks."]
     [:div.timeline
-     (for [[year group] (group-by #(subs (:date %) 0 4) talks)]
+     (for [[year group] (->> (group-by #(subs (:date %) 0 4) past-talks)
+                             (sort-by #(Long/parseLong (key %)) >))]
        [:div.timeline-item
         [:div.year year]
         [:div.items
