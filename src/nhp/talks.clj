@@ -6,7 +6,13 @@
   [])
 
 (def past-talks
-  [{:title "Golfing Clojure: Check Checker under 280 characters of Clojure"
+  [{:title "Tweaking your workflow to help you learn a language"
+    :url "talks/20230710-warsawjs"
+    :event "WarsawJS"
+    :event-url "https://warsawjs.com"
+    :city "Warsaw"
+    :date "2023-07-10"}
+   {:title "Golfing Clojure: Check Checker under 280 characters of Clojure"
     :url "talks/2022-clojuredays"
     :event "Dutch Clojure Days"
     :event-url "https://clojuredays.org/"

@@ -11,20 +11,23 @@
     [:section.programming
      [:h2 "Programming"]
      [:ul
-      [:li [:a {:href "http://smyrna.danieljanus.pl"} "Smyrna"]
+      [:li [:a {:href "https://smyrna.danieljanus.pl"} "Smyrna"]
        ", a concordancer for Polish"]
       [:li [:a {:href "wladcyslow"} "Word Champions"]
        ", a word game"]
       [:li [:a {:href "autosummarized-hn"} "Autosummarized Hacker News"]
-       " (with GPT-3)"]
+       " (with GPT-3, no longer updated)"]
       [:li [:a {:href "https://github.com/nathell"} "GitHub projects"]]]]
     [:section.writing
      [:h2 "Writing"]
      [:ul
       [:li "Blogs: "
-       [:a {:href "http://blog.danieljanus.pl"} "English"]
+       [:a {:href "https://blog.danieljanus.pl"} "English"]
        ", "
-       [:a {:href "http://plblog.danieljanus.pl"} "Polish"]]
+       [:a {:href "https://plblog.danieljanus.pl"} "Polish"]]
+      [:li "My "
+       [:a {:href "https://danieljanus.substack.com"} "Land’s End to John o’ Groats 2023 bike tour newsletter"]
+       " (Polish)"]
       [:li
        [:a {:href "translations"} "Poetry translations"]
        " (English → Polish)"]]]
@@ -36,9 +39,14 @@
      [:h2 "Contact"]
      [:ul
       [:li "Email me: " [:a {:href "mailto:dj@danieljanus.pl"} "dj@danieljanus.pl"]]
-      [:li [:a {:href "https://twitter.com/nathell"} "Twitter"]
+      [:li "Social media: "
+       [:a {:href "https://mastodon.social/@nathell"} "Mastodon"]
        ", "
-       [:a {:href "https://www.linkedin.com/in/nathell/"} "LinkedIn"]]]]]])
+       [:a {:href "https://www.linkedin.com/in/nathell/"} "LinkedIn"]
+       ", "
+       [:a {:href "https://twitter.com/nathell"} "Twitter"]
+       ", "
+       [:a {:href "https://www.facebook.com/daniel.janus"} "Facebook"]]]]]])
 
 (defn home-page []
   (layout/page {:content (home-content)}))
