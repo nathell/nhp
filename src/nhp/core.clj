@@ -14,7 +14,7 @@
     (io/make-parents (str "out/" domain "/a"))
     (fs/copy-dir (str "resources/" dir) (str "out/" domain))))
 
-(defn -main []
+(defn build [_args]
   (copy-assets)
   (home/generate)
   (talks/generate)

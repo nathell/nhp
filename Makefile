@@ -1,13 +1,15 @@
 all: deploy
 
-build:
-	lein run
+build: resources/css/nhp.css
+	clojure -X:build
 	scripts/postprocess-feed out/
 
-sass:
-	lein sass once
+resources/css/nhp.css: src/sass/nhp.sass
+	sassc $< $@
 
-deploy: build sass
+deploy: build
 	rsync -avz out/ nathell@danieljanus.pl:/var/www
 
-.PHONY: all deploy build build-sass
+sass: resources/css/nhp.css
+
+.PHONY: all deploy build sass
