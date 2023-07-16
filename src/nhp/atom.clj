@@ -1,6 +1,7 @@
 (ns nhp.atom
   (:require
     [clojure.data.xml :as xml]
+    [hiccup.core :as hiccup]
     [java-time :as t]))
 
 (xml/alias-uri 'atom "http://www.w3.org/2005/Atom")
@@ -46,7 +47,7 @@
              {:tag ::atom/title, :content [title]}
              {:tag ::atom/link, :attrs {:href (post-url post)}}
              {:tag ::atom/updated, :content [(str (t/instant date))]}
-             {:tag ::atom/content, :attrs {:type "html"}, :content content}]})
+             {:tag ::atom/content, :attrs {:type "html"}, :content (hiccup/html content)}]})
 
 (defn feed [posts]
   (let [lang (:lang (first posts))]

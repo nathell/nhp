@@ -3,12 +3,13 @@
     [clojure.java.io :as io]
     [clojure.string :as string]
     [java-time :as t]
-    [markdown.core :as markdown]
     [me.raynes.fs :as fs]
+    [nextjournal.markdown :as md]
+    [nextjournal.markdown.transform :as md.transform]
     [nhp.atom :as atom]
-    [nhp.gemini :as gemini]
+    #_ [nhp.gemini :as gemini] ;; temporarily disabled
+    [nhp.highlight :as highlight]
     [nhp.layout :as layout]
-    [reaver]
     [yaml.core :as yaml]))
 
 (defn instant->local-date
@@ -56,16 +57,33 @@
     [(unsierotkize s) state]
     [s state]))
 
+(def hiccup-renderers
+  (merge md.transform/default-hiccup-renderers
+         {:plain (partial md.transform/into-markup [:span])
+          :code (fn [ctx {:keys [text content language] :as node}]
+                  (if (and language (seq language))
+                    [:pre
+                     (into [:code {:class (str "hljs " language)}]
+                           (keep (partial md.transform/->hiccup (assoc ctx ::md.transform/parent node)))
+                           [{:type :text
+                             :text (-> content first :text (highlight/highlight language))}])]
+                    (md.transform/into-markup [:pre.viewer-code.not-prose] ctx node)))}))
+
+(defn ->hiccup [content]
+  (md.transform/->hiccup hiccup-renderers content))
+
 (defn chop [s n]
   (subs s 0 (- (count s) n)))
 
 (defn read-blog [filename]
   (let [raw (slurp filename)
-        [_ front-matter content] (string/split raw #"---\n" 3)]
+        [_ front-matter content] (string/split raw #"---\n" 3)
+        parsed (md/parse content)]
     {:file filename
      :slug (-> filename io/file .getName (subs 11) (chop 3))
      :front-matter (yaml/parse-string front-matter)
-     :content (markdown/md-to-html-string content :reference-links? true :footnotes? true :custom-transformers [unsierotkize-paragraph])}))
+     :parsed parsed
+     :content (->hiccup parsed)}))
 
 (defn read-all-blogs [lang]
   (->> (fs/list-dir (io/resource (str "blog/" lang)))
@@ -130,28 +148,19 @@
 
 (def min-content-length 200)
 
-(defn trim-content [s]
-  (let [[result & remaining] (string/split s #"(?=<[ph])")]
-    (loop [result result remaining remaining]
-      (cond
-        (empty? remaining) result
-        (>= (count result) min-content-length) result
-        :otherwise (recur (str result (first remaining))
-                          (rest remaining))))))
-
-(defn contains-code? [blog]
-  (-> blog :content reaver/parse (reaver/select "code") boolean))
+(defn trim-content [{:keys [content] :as node}]
+  (let [counts (map (comp count md.transform/->text) content)
+        cumulative-counts (reductions + counts)
+        num-paragraphs (inc (count (take-while #(< % min-content-length) cumulative-counts)))]
+    (update node :content (partial take num-paragraphs))))
 
 (defn blog-page [[prev blog next]]
-  (let [code? (contains-code? blog)]
-    (layout/page {:title (get-in blog [:front-matter :title]),
-                  :extra-head (when code? [[:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]])
-                  :content [:div.main.blog
-                            (blog-header (:lang blog))
-                            (post blog)
-                            (note-navigation prev next)
-                            (when code? [:script {:src "/js/highlight.pack.js"}])
-                            (when code? [:script "hljs.initHighlightingOnLoad();"])]})))
+  (layout/page {:title (get-in blog [:front-matter :title]),
+                :extra-head [[:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]]
+                :content [:div.main.blog
+                          (blog-header (:lang blog))
+                          (post blog)
+                          (note-navigation prev next)]}))
 
 (defn emit-single-blog-pages [blogs]
   (doseq [[_ blog _ :as chunk] (partition 3 1 (concat [nil] blogs [nil]))
@@ -161,9 +170,10 @@
                         (blog-page chunk))))
 
 (defn trim-blog [{:keys [lang] :as blog}]
-  (let [content (trim-content (:content blog))
+  (let [trimmed (trim-content (:parsed blog))
+        content (->hiccup trimmed)
         read-more [:p.body.read-more [:a {:href (blog-url blog)} (get-in i18n [lang :read-more])]]
-        extra (when (not= content (:content blog)) read-more)]
+        extra (when (not= trimmed (:parsed blog)) read-more)]
     (assoc blog :content content :extra extra)))
 
 (defn blog-multi-page [page-no page-count blogs]
@@ -187,12 +197,14 @@
       (layout/output-page (str (lang->domain lang) (page-url i) "index.html")
                           (blog-multi-page i page-count blogs)))))
 
+#_
 (defn gemini-blog-index [blogs]
   (string/join "\n"
                (map (fn [{{:keys [title date]} :front-matter, lang :lang, :as blog}]
                       (format "=> %s/index.gmi %s – %s" (subs (blog-url blog) 1) (subs (pr-str date) 7 17) title))
                     blogs)))
 
+#_
 (defn emit-gemini-blog [blogs]
   (doseq [blog blogs
           :let [url (blog-url blog)
@@ -212,7 +224,7 @@
     (emit-multi-blog-pages blogs)
     (emit-single-blog-pages blogs)
     (emit-atom-feed blogs)
-    (emit-gemini-blog blogs)))
+    #_(emit-gemini-blog blogs)))
 
 (defn generate []
   (doseq [lang ["en" "pl"]]

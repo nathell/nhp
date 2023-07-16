@@ -7,6 +7,8 @@
            [org.jsoup.safety Whitelist]))
 
 ;; parsed HTML to Gemtext conversion
+;; currently not used because we've migrated to nextjournal/markdown
+;; TODO: implement a proper AST to Gemini converter!
 
 (defn text-node? [x]
   (instance? TextNode x))
