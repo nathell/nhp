@@ -6,7 +6,7 @@ categories: DOS assembly programming
 
 While hacking on Lithium, I’ve noticed an interesting thing. Here’s a sample DOS program in assembly (TASM syntax):
 
-```asm
+```x86asm
 .model tiny
 .code
   org 100h

@@ -12,7 +12,7 @@ I’ve packaged it using `lein uberjar` into a standalone jar, which, when run, 
 
 It’s driven by a Google spreadsheet. I’ve created a sheet that has three columns: item name, minimum price, maximum price; then I’ve made it available to anyone who knows the URL. This way I can edit it pretty much from everywhere without touching the script. Each time the script is run (by cron), it downloads that spreadsheet as a CSV that looks like this:
 
-```nohighlight
+```
 hand blender,,5
 bike rack,,15
 ```

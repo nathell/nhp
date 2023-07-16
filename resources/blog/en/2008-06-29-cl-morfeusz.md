@@ -6,7 +6,7 @@ categories: Lisp programming
 
 Here’s what I came up with today, after no more than 90 minutes of coding (complete with comments and all):
 
-```nohighlight
+```
 MORFEUSZ> (morfeusz-analyse "zażółć gęślą jaźń")
 ((0 1 "zażółć" "zażółcić" "impt:sg:sec:perf")
  (1 2 "gęślą" "gęśl" "subst:sg:inst:f")

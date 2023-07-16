@@ -16,7 +16,7 @@ Yesterday, my level of frustration with my old operating system at work exceeded
 
 The last step was to use this font for Emacs, too. So I installed Emacs, created the file `~/.Xdefaults` containing the single line
 
-```nohighlight
+```
 Emacs*font: -misc-console-medium-r-normal--16-160-72-72-c-80-iso10646-1
 ```
 

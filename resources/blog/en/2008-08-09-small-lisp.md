@@ -6,7 +6,7 @@ categories: Lisp programming
 
 So, how much disk space does your average CL image eat up? A hundred megs? Fifty? Twenty? Five, perhaps, if you’re using LispWorks with a tree-shaker? Well then, how about this?
 
-```nohighlight
+```
 [nathell@chamsin salza2-2.0.4]$ ./cl-gzip closures.lisp test.gz
 [nathell@chamsin salza2-2.0.4]$ gunzip test
 [nathell@chamsin salza2-2.0.4]$ diff closures.lisp test

@@ -17,7 +17,7 @@ pewnie wymaga niewielkich przeróbek z zachowaniem formy.
 
  [1]: http://bronikowski.com/2159/skutki-bycia-ekstremalnie-zajetym
 
-```nohighlight
+```
 From: Daniel Janus <przesunmalpe@nathell.korpus.pl>
 Newsgroups: pl.hum.poezja
 Subject: # o jaskiniach, programowaniu i poezji
@@ -122,7 +122,7 @@ skodyfikowanym.
 
 Żeby nie być gołosłownym -- oto pokój zawierający jabłko w Informie 6:
 
-```nohighlight
+```
 Constant Story "Hello World";
 Constant Headline "^An Interactive Example^";
 
@@ -148,7 +148,7 @@ Include "Grammar";
 
 A oto ten sam pokój w Informie 7:
 
-```nohighlight
+```
 "Hello World" by Daniel Janus
 
 The story headline is "An Interactive Example".
@@ -167,7 +167,7 @@ sonet (a nawet metasonet -- jego tematem są bowiem sonety!)
 
 Oto on:
 
-```nohighlight
+```
 Will's Study is a room. The desk is here.
 A hastily handwritten note is on it.
 Description is "It's from your friend Shakespeare:
@@ -194,7 +194,7 @@ pierwszym etapie, zanim zaczną działać normalne reguły.)
 
 I moje rudymentarne tłumaczenie:
 
-```nohighlight
+```
 Dębowe biurko stoi w gabinecie Willa.
 Na nim kartka z notatką skreśloną starannie.
 Opis: "Od przyjaciela twojego, Szekspira:

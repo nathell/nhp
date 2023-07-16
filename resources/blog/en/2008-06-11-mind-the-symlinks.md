@@ -8,7 +8,7 @@ Probably every day I keep learning new things, without even realizing it most of
 
 So here’s a simple Unix question: If you enter a subdirectory of the current directory and back to `..`, where will you end up? The most obvious answer is, of course, “in the original directory”, and is mostly correct. But is it always? Let’s see.
 
-```nohighlight
+```
 nathell@breeze:~$ pwd
 /home/nathell
 nathell@breeze:~$ cd foobar
@@ -19,7 +19,7 @@ nathell@breeze:~$ pwd
 
 So the hypothesis seems to be right. But let’s try doing this in Python, just for the heck of it:
 
-```nohighlight
+```
 nathell@breeze:~$ python
 Python 2.5.2 (r252:60911, Apr 21 2008, 11:12:42)
 [GCC 4.2.3 (Ubuntu 4.2.3-2ubuntu7)] on linux2

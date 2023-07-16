@@ -92,7 +92,7 @@ nil
 
 We try to view `a.svg` in Firefox and…
 
-```nohighlight
+```
 Error parsing XML: not well-formed
 Area: file:///tmp/a.xml
 Row 15, column 44: Updated to reflect dissolution of Serbia & Montenegro: http://commons.wikimedia.org/wiki/User:Zirland

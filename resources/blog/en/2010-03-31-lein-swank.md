@@ -8,7 +8,7 @@ A couple of weeks ago I finally got around to acquainting myself with [Leiningen
 
 One feature in particular is very useful for Emacs users like me: `lein swank`. You define all dependencies in `project.clj` as usual, add a magical line to `:dev-dependencies`, then say
 
-```nohighlight
+```
 $ lein swank
 ```
 

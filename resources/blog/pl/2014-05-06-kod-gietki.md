@@ -43,7 +43,7 @@ Mieliśmy więc działający, mocny tekst; dzięki przeróbce i znalezieniu _odp
 
 Zastanawialiście się, co by było, gdyby Mickiewicz używał gita? „Stepy akermańskie” były refaktorowane wielokrotnie w karkołomnych próbach uchwycenia balansu między wzburzonym oceanem a wysuszoną, jałową pustynią. Jesteśmy niemal w stanie zrekonstruować wynik działania `git log -p` na tym hipotetycznym repozytorium.
 
-```nohighlight
+```
 commit 90023f50e466ecf9339c1348f92bd855ccd58750
 Author: Adam Mickiewicz <adam@mickiewicz.lt>
 Date:   Wed Mar 12 19:42:12 1828 +0100

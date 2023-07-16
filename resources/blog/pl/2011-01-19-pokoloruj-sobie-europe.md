@@ -157,7 +157,7 @@ nil
 
 Próbujemy otworzyć wynikowy obrazek w Firefoksie i...
 
-```nohighlight
+```
 Błąd parsowania XML: nieprawidłowo sformowany
 Obszar: file:///tmp/a.xml
 Numer linii: 15, kolumna 44: Updated to reflect dissolution of Serbia &amp; Montenegro: http://commons.wikimedia.org/wiki/User:Zirland

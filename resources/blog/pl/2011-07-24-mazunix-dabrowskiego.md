@@ -6,7 +6,7 @@ comments: true
 categories: humor Unix
 ---
 
-```nohighlight
+```
 Jeszcze Polska nie zginęła,    $ (ps ax | grep Polska)
 póki my żyjemy.                  && (ps ax | grep `whoami`)
 Co nam obca przemoc wzięła,    $ sudo chown -R / `whoami`

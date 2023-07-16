@@ -76,7 +76,7 @@ słów jednosylabowych jest w języku polskim za mało. W „Oficjalnym
 słowniku polskiego scrabblisty” można znaleźć ich kilka tysięcy (na
 ponad dwa miliony wszystkich odnotowanych form słów):
 
-```nohighlight
+```
 $ egrep '^[^aeioóuyąę]*(y|i?[aeouóąę])[^aeioóuyąę]*$' osps.txt | wc -l
 5975
 ```

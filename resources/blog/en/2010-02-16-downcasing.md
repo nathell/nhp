@@ -6,14 +6,14 @@ categories: Unix
 
 I just needed to convert a big (around 200 MB) text file, encoded in UTF-8 and containing Polish characters, all into lowercase. `tr` to the rescue, right? Well, not quite.
 
-```nohighlight
+```
 $ echo ŻŹŚÓŃŁĘĆĄ | tr A-ZĄĆĘŁŃÓŚŹŻ a-ząćęłńóśźż
 żźśóńłęćą
 ```
 
 Looks reasonable (apart from the fact that I need to specify an explicit character mapping — it would be handy to just have a lcase utility or suchlike); but here’s what happens on another random string:
 
-```nohighlight
+```
 $ echo abisyński | tr A-ZĄĆĘŁŃÓŚŹŻ a-ząćęłńóśźż
 abisyŅski
 ```
@@ -28,7 +28,7 @@ This is a sad, sad state of affairs. It’s 2010, UTF-8 has been around for seve
 
 Fortunately, not everything is broken. Gawk, for example, works:
 
-```nohighlight
+```
 $ echo koŃ i żÓłw | gawk '{ print tolower($0); }'
 koń i żółw
 ```
