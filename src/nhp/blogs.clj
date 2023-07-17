@@ -4,12 +4,10 @@
     [clojure.string :as string]
     [java-time :as t]
     [me.raynes.fs :as fs]
-    [nextjournal.markdown :as md]
-    [nextjournal.markdown.transform :as md.transform]
     [nhp.atom :as atom]
     #_ [nhp.gemini :as gemini] ;; temporarily disabled
-    [nhp.highlight :as highlight]
     [nhp.layout :as layout]
+    [nhp.markdown :as md]
     [yaml.core :as yaml]))
 
 (defn instant->local-date
@@ -57,21 +55,6 @@
     [(unsierotkize s) state]
     [s state]))
 
-(def hiccup-renderers
-  (merge md.transform/default-hiccup-renderers
-         {:plain (partial md.transform/into-markup [:span])
-          :code (fn [ctx {:keys [text content language] :as node}]
-                  (if (and language (seq language))
-                    [:pre
-                     (into [:code {:class (str "hljs " language)}]
-                           (keep (partial md.transform/->hiccup (assoc ctx ::md.transform/parent node)))
-                           [{:type :text
-                             :text (-> content first :text (highlight/highlight language))}])]
-                    (md.transform/into-markup [:pre.viewer-code.not-prose] ctx node)))}))
-
-(defn ->hiccup [content]
-  (md.transform/->hiccup hiccup-renderers content))
-
 (defn chop [s n]
   (subs s 0 (- (count s) n)))
 
@@ -83,7 +66,7 @@
      :slug (-> filename io/file .getName (subs 11) (chop 3))
      :front-matter (yaml/parse-string front-matter)
      :parsed parsed
-     :content (->hiccup parsed)}))
+     :content (md/->hiccup parsed)}))
 
 (defn read-all-blogs [lang]
   (->> (fs/list-dir (io/resource (str "blog/" lang)))
@@ -148,12 +131,6 @@
 
 (def min-content-length 200)
 
-(defn trim-content [{:keys [content] :as node}]
-  (let [counts (map (comp count md.transform/->text) content)
-        cumulative-counts (reductions + counts)
-        num-paragraphs (inc (count (take-while #(< % min-content-length) cumulative-counts)))]
-    (update node :content (partial take num-paragraphs))))
-
 (defn blog-page [[prev blog next]]
   (layout/page {:title (get-in blog [:front-matter :title]),
                 :extra-head [[:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]]
@@ -170,8 +147,8 @@
                         (blog-page chunk))))
 
 (defn trim-blog [{:keys [lang] :as blog}]
-  (let [trimmed (trim-content (:parsed blog))
-        content (->hiccup trimmed)
+  (let [trimmed (md/trim-content min-content-length (:parsed blog))
+        content (md/->hiccup trimmed)
         read-more [:p.body.read-more [:a {:href (blog-url blog)} (get-in i18n [lang :read-more])]]
         extra (when (not= trimmed (:parsed blog)) read-more)]
     (assoc blog :content content :extra extra)))
