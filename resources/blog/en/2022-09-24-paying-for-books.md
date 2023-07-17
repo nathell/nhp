@@ -48,7 +48,7 @@ While it’d be a strong expectation, I also think it’d be important that it b
 
 Just how much that would be in practice? I have no idea, but I roughly guess typically a few dollars. A breakdown of the retail price of a typical book looks like this:
 
-<figure><img src="/img/blog/book-price.svg" alt="Breakdown of a book price"><figcaption>What makes up the price of a book? (Image translated from [here][6], based on Polish data; I wasn’t able to find similarly detailed information for English-language market, but [this article][7] suggests it’s not far off.)</figcaption></figure>
+<figure><img src="/img/blog/book-price.svg" alt="Breakdown of a book price"><figcaption>What makes up the price of a book? (Image translated from <a href="https://www.granice.pl/news/skad-sie-bierze-cena-ksiazki/5868">here</a>, based on Polish data; I wasn’t able to find similarly detailed information for English-language market, but <a href="https://www.davidderrico.com/cost-breakdowns-e-books-vs-printed-books/">this article</a> suggests it’s not far off.)</figcaption></figure>
 
  [^footnote1]: In Polish, “Strata Kazika”, a pun on [another Kult album title][5]. (Oops, I did it again. And I tried hard not to link to Britney.)
 
