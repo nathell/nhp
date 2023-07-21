@@ -24,7 +24,8 @@
                                (keep (partial md.transform/->hiccup (assoc ctx ::md.transform/parent node)))
                                [{:type :text
                                  :text (-> content first :text (highlight/highlight language))}])]
-                        (md.transform/into-markup [:pre.viewer-code.not-prose] ctx node)))}))
+                        [:pre
+                         (md.transform/into-markup [:code] ctx node)]))}))
 
 (defn ->hiccup [{:keys [footnotes] :as content}]
   (cond->
