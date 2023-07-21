@@ -39,6 +39,8 @@ $light-gray: lighten($black, 50)
 *
   box-sizing: border-box
 
+$width: 800px
+
 html
   margin: 0
   font-family: Bona Nova, Times New Roman, serif
@@ -209,7 +211,7 @@ h2
     text-align: center
     margin: 0
   .body, .blog-navigation, .blog-header
-    max-width: 800px
+    max-width: $width
     margin-left: auto
     margin-right: auto
   .blog-navigation
@@ -230,8 +232,6 @@ h2
     display: block
     max-width: 100%
     margin: 0 auto
-  code
-    padding: 0
   ul
     list-style-type: disc
   table
@@ -245,12 +245,23 @@ h2
       font-size: 24px
     .center
       text-align: center
-  pre
-    overflow-x: auto
   pre, code
     font-family: Ubuntu Mono, Menlo, Inconsolata, Consolas, monospace
     font-size: 20px
+    +mobile
+      font-size: 16px
     line-height: 1.25
+  pre
+    width: calc(100vw - 36px)
+    position: relative
+    left: calc(-50vw + 50% + 18px)
+    overflow-x: auto
+    code
+      display: block
+      width: max-content
+      min-width: $width
+      margin: 0 auto
+      padding: 0
   hr
     border: none
     width: 50%
