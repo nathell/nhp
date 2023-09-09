@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1130 260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    svg { background: #F5EBB0; }
+    path { fill: none; stroke: black; stroke-width: 5; }
+    #spoke { stroke: white; stroke-width: 2; }
+    text { font: bold 50px Bona Nova, Times New Roman, serif; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+  <defs>
+    <path id="spoke" d="M15 65 h100" />
+    <g id="wheel">
+      <circle cx="65" cy="65" r="50" />
+      <use xlink:href="#spoke" />
+      <use xlink:href="#spoke" transform="rotate(90, 65, 65)" />
+      <use xlink:href="#spoke" transform="rotate(45, 65, 65)" />
+      <use xlink:href="#spoke" transform="rotate(135, 65, 65)" />
+      <animateTransform attributeType="XML" attributeName="transform" type="rotate" from="0 65 65" to="360 65 65" repeatCount="indefinite" dur="5s"/>
+    </g>
+    <g id="belt">
+      <path d="M65 5 a40 40 0 0 0 0 120 h1000 a40 40 0 0 0 0 -120 h-1000" />
+      <use xlink:href="#wheel" />
+      <use xlink:href="#wheel" transform="translate(1000, 0)" />
+    </g>
+  </defs>
+  <use xlink:href="#belt" transform="translate(0, 120)"/>
+  <g id="number">
+    <path d="M5 20 h120 v100 h-120 v-100"/>
+    <text x="65" y="70">2</text>
+    <animateMotion dur="5s" path="M0,0 L1000,0" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5s" repeatCount="indefinite" />
+  </g>
+  <g>
+    <path d="M5 20 h120 v100 h-120 v-100"/>
+    <text x="65" y="70">4</text>
+    <animateMotion begin="2s" dur="5s" path="M0,0 L1000,0" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0" dur="2s" repeatCount="1" />
+    <animate attributeName="opacity" begin="2s" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5s" repeatCount="indefinite" />
+  </g>
+  <g>
+    <path d="M5 20 h120 v100 h-120 v-100"/>
+    <text x="65" y="70">6</text>
+    <animateMotion begin="4s" dur="5s" path="M0,0 L1000,0" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0" dur="4s" repeatCount="1" />
+    <animate attributeName="opacity" begin="4s" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="5s" repeatCount="indefinite" />
+  </g>
+</svg>
