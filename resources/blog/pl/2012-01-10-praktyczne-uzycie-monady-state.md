@@ -16,7 +16,7 @@ tematu: wygląda na to, że każdy adept Haskella, zrozumiawszy monady,
 pisze na ten temat własny _tutorial_. Ja się powstrzymam od tego
 naturalnego odruchu i po prostu odeślę do niesamowicie szczegółowego,
 ośmioczęściowego [cyklu artykułów][1] autorstwa Mike'a Vaniera, który
--- wreszcie! -- sprawił, że coś mi „zaskoczyło” w umyśle. Zamiast tego
+-- wreszcie! – sprawił, że coś mi „zaskoczyło” w umyśle. Zamiast tego
 w tym wpisie wynotuję najważniejsze spostrzeżenia, jakie zapamiętałem,
 a potem pokażę dwie wersje pewnego kodu operującego na sekwencjach
 bitów: niemonadyczną i napisaną z użyciem monady `state`.
@@ -44,7 +44,7 @@ Oto więc moje notatki:
   monadami wyrażają się w elegancki i prosty do zapamiętania sposób:
   jest to operator łączny oraz `m-return` jest jego lewą i prawą
   jedynką.
-* I bodaj najistotniejsza rzecz -- nie trzeba rozumieć monad, żeby
+* I bodaj najistotniejsza rzecz – nie trzeba rozumieć monad, żeby
   ich używać. Niby oczywiste i niby tak właśnie pisałem do tej pory
   kod haskellowy, radośnie używając `do`-notacji tak jakbym pisał kod
   imperatywny; ale okazuje się, że w ten sam sposób można z
@@ -56,7 +56,7 @@ Oto więc moje notatki:
 Reszta tego wpisu będzie poświęcona właśnie przykładowemu użyciu
 monady stanu w Clojure.  [Pisałem wcześniej][2], że nie widziałem
 dotąd kodu, który dałby się wyrazić przejrzyściej zapisany z użyciem
-monad niż bez nich -- i właśnie na taki kod się natknąłem.
+monad niż bez nich – i właśnie na taki kod się natknąłem.
 
 Wyobraźmy więc sobie, że mamy strumień bitów. Dla prostoty zdefiniujmy
 sobie przykładowy strumień, na którym będziemy testować nasze funkcje,
@@ -96,7 +96,7 @@ Piszemy wszak funkcyjnie: nie zmieniamy naszych wartości w miejscu,
 tylko z jednych wartości produkujemy następne.
 
 Innym rodzajem kodu jest _kod unarny_: czytamy po prostu ze strumienia
-jedynki, aż napotkamy pierwsze zero -- wtedy przestajemy czytać i
+jedynki, aż napotkamy pierwsze zero – wtedy przestajemy czytać i
 naszą wartością jest liczba przeczytanych bitów. W ten sposób dowolną
 liczbę dodatnią _n_ da się zareprezentować na _n_ bitach.
 Implementacja jest równie prosta:
@@ -192,7 +192,7 @@ _kodami Golomba_. Po szczegółowy opis odsyłam do [Wikipedii][3], natomiast
 dla potrzeb tego artykułu wystarczy nam wiedza, że te kody są
 parametryzowane jedną liczbą _m_. Liczba w kodzie Golomba jest podzielona
 na dwie części, z których pierwsza jest zakodowana unarnie, a druga --
-nie większa niż _m_ -- binarnie. W implementacji możemy więc skorzystać
+nie większa niż _m_ – binarnie. W implementacji możemy więc skorzystać
 z naszych gotowych już funkcji `read-unary` i `read-binary`.
 
 Bez dłuższych już komentarzy przedstawię dwie implementacje:
@@ -223,7 +223,7 @@ Najpierw wersja niemonadyczna:
 
 A teraz używająca monad. Żeby nie przeplatać `let` i `domonad`,
 można po prostu zdefiniować funkcję zwracającą pewną stałą wartość
-i niezmieniony stan -- nazwę ją `m-const`:
+i niezmieniony stan – nazwę ją `m-const`:
 
 ``` clojure
 (defn m-const [x]

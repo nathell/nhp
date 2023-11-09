@@ -58,7 +58,7 @@ mimo wszystko „Programowanie w języku Clojure” czyta mi się mniej
 płynnie niż oryginał angielski; a także zwrócenia uwagi na problemy,
 z jakimi musi się zmierzyć tłumacz. Zasygnalizuję więc pewne
 zagadnienia, ale wcale nie mam pewności, czy potrafiłbym rozwiązać
-je lepiej, albo nawet -- czy w ogóle się da.
+je lepiej, albo nawet – czy w ogóle się da.
 
 Bo wydawałoby się, że tłumaczenie tekstu informatycznego jest czynnością
 bez porównania prostszą niż na przykład poezji, gdzie trzeba ważyć
@@ -66,7 +66,7 @@ każde słowo, prawda? Tymczasem rodzi ono zupełnie nowe problemy.
 Tłumacz zmuszony jest często wymyślić od nowa terminologię z zakresu
 wąskiej dziedziny, o której po polsku się nie pisze lub pisze się
 rzadko lub nieformalnie; podjąć pewne nierzadko arbitralne decyzje
-i konsekwentnie się ich trzymać; albo -- jak zobaczymy -- zadecydować,
+i konsekwentnie się ich trzymać; albo – jak zobaczymy – zadecydować,
 co zrobić z subtelnymi różnicami odcieni znaczeniowych pewnych pojęć.
 
 ### Lispa czy Lispu?
@@ -101,7 +101,7 @@ z odpowiadającym mu tłumaczeniem:
 
 > Instrukcję `defrecord` i powiązane funkcje omawiamy w podrozdziale 6.3, „Protokoły”.
 
-Tłumacz -- słusznie -- uznaje, że po polsku to zdanie brzmiałoby
+Tłumacz – słusznie – uznaje, że po polsku to zdanie brzmiałoby
 koślawo bez wprowadzenia na początku rzeczownika określającego, cóż to
 jest owo `defrecord`. Wybiera słowo „instrukcja”, które nie budziłoby
 żadnych sprzeciwów, gdyby to była książka o Pythonie albo C.  Tu

@@ -11,7 +11,7 @@ aforyzm nieznanego autorstwa cytuje Stanisław Barańczak w „Ocalonym w
 tłumaczeniu”, zastrzegając się, że nie jest pewien jego słuszności. I
 choć Barańczak kontestuje istnienie takich wierszy, których on sam nie
 potrafiłby na polski przełożyć, nieprzekładalności dopatrując się raczej
-w tłumaczeniach w drugą stronę -- ja od czasu do czasu, zastanawiając
+w tłumaczeniach w drugą stronę – ja od czasu do czasu, zastanawiając
 się nad tym, jak po polsku mógłby brzmieć ten lub inny wiersz, dochodzę
 do wniosku, że dobrze przetłumaczyć się go nie da. Dziś przykład:
 _Toccata Galuppiego_ (_A Toccata of Galuppi's_) Roberta Browninga,
@@ -36,10 +36,10 @@ niemożliwe do urzeczywistnienia.
 Jak bowiem mógłby wyglądać polski przekład? Jak musiałby oddać różne
 aspekty oryginału?
 
-Po pierwsze -- rytm. W oryginale jest to peon trzeci z kataleksą, w
+Po pierwsze – rytm. W oryginale jest to peon trzeci z kataleksą, w
 którym każdy wers składa się z czterech stóp. Tak przynajmniej ja to
 słyszę; można też to traktować jako ośmiostopowiec trocheiczny (tak
-podobno pisał o nim sam Browning w liście do F. J. Furnivalla -- podaję
+podobno pisał o nim sam Browning w liście do F. J. Furnivalla – podaję
 za wydaniem z komentarzami pod redakcją Woolforda i Karlina), ale moim
 zdaniem pierwsze akcenty w każdej parze trochejów są znacznie słabsze
 niż drugie. Jednak ta subtelna różnica jest mało istotna wobec pytania,
@@ -93,7 +93,7 @@ języka angielskiego, której nie ma polszczyzna. Jest w „Toccacie” wiele
 półwersowych fraz składających się tylko z jednosylabowych słów i
 brzmiących bardzo naturalnie, jak choćby „It’s as if I saw it all.” Jak
 powiedzieć po polsku w siedmiu sylabach „Tak, jak gdybym to wszystko
-widział”? Albo „Venice spent what Venice earned” -- dwukrotne
+widział”? Albo „Venice spent what Venice earned” – dwukrotne
 powtórzenie nazwy Wenecji jest tu bardzo znaczące, ale jedno z nich
 trzeba by w polskiej wersji wyrzucić, żeby mieć niezerową ilość miejsca,
 a i tak będzie bardzo trudno dobrze oddać tę frazę. Albo te wielokrotne

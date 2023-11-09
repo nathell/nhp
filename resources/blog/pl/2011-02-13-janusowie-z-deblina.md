@@ -20,7 +20,7 @@ Niewiele mi to mówi. Janus to dość popularne nazwisko; na stronie
 [Marka Futregi][1] widzę, że nosi je około 10 tys. osób w Polsce 
 i akurat wśród znanych mi Janusów nie było żadnego Walentego, 
 który by wyemigrował do USA. Wydaje mi się, że "Giblin" może być 
-amerykańsko-fonetycznym zapisem Dęblina -- tak mógł usłyszeć oficer 
+amerykańsko-fonetycznym zapisem Dęblina – tak mógł usłyszeć oficer 
 imigracyjny i tak zapisać.
 
 A publikuję ten post w nadziei, że może ktoś z czytelników tego bloga

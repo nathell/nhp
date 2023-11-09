@@ -31,7 +31,7 @@ na zdarzenie powiadamiające, że można rysować; wywołać właściwą
 funkcję rysującą kreskę; wyczyścić bufor połączenia (jak to opisuje
 [ten tutorial][3]). System czcionek bitmapowych, wiele sposobów
 określania współrzędnych ekranowych, wielki zestaw prymitywów
-graficznych, biblioteki Athena czy Xt -- wszystko to jest bagażem
+graficznych, biblioteki Athena czy Xt – wszystko to jest bagażem
 historycznym, z którego współczesne oprogramowanie już nie korzysta, a
 mimo to każdy Linux przychodzi z całym tym dobrodziejstwem
 inwentarza. Dwa wzajemnie niekompatybilne podsystemy renderowania

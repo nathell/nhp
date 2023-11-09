@@ -16,7 +16,7 @@ zaczynają wyrastać fundamenty nie wiadomo czego.
 Według mapy, hostel mieści się na starówce, we wschodniej części, tuż
 przy granicy. To jakieś półtora kilometra stąd. Wciąż nie wiemy, czy
 mają wolne miejsca (taki urok trampowego wyjazdu: nigdy nie wiesz,
-gdzie będziesz spać jutro) -- iść tam od razu czy najpierw zadzwonić?
+gdzie będziesz spać jutro) – iść tam od razu czy najpierw zadzwonić?
 Nie jest daleko, ciepły wieczór zachęca do spaceru. Zabieramy plecaki
 i ruszamy.
 
@@ -27,9 +27,9 @@ między konarami drzewa rozsiadł się kot, drzemiąc i niewiele sobie
 robiąc z rzeczywistości. Dwa inne krążą między turystami w nadziei na
 darmowe żarcie. Jeszcze jeden rzut oka na mapę.
 
--- _You need help?_ -- z zamyślenia wyrywa mnie jakiś głos.
+-- _You need help?_ – z zamyślenia wyrywa mnie jakiś głos.
 
--- _No, thanks, I'm fine._ -- odpowiadam, odsuwając się na wszelki
+-- _No, thanks, I'm fine._ – odpowiadam, odsuwając się na wszelki
 wypadek. Ludzie tu bardzo chcą być pomocni, co czasem bywa irytujące:
 wystarczy przez chwilę wyglądać na zagubionego.
 
@@ -44,7 +44,7 @@ McDonaldem.
 I wchodzimy w portal prowadzący do innego świata.
 
 Pierwsze, co rzuca się w oczy, to znacznie mniej przechodniów; ale to
-jasne -- przy tej ulicy prawie nie ma kawiarń, więc wszyscy siedzą
+jasne – przy tej ulicy prawie nie ma kawiarń, więc wszyscy siedzą
 przy deptaku, gdzie koncentruje się nocne życie. Przecinamy małe rondo
 na przełaj. Dalsza część ulicy nie jest oświetlona, tylko
 gdzieniegdzie w oknach palą się światła. Uliczka jest wąska, na
@@ -92,7 +92,7 @@ snuje i gotuje herbatę. Po chwili drzwi otwierają się.
 
 -- _Hello, would you have two beds available for tonight?_
 
--- _No, no place._ -- Młody człowiek słabo mówi po angielsku.
+-- _No, no place._ – Młody człowiek słabo mówi po angielsku.
 
 -- _Not even a free scrap of floor? We have sleeping bags._ --
 upewniam się.

@@ -14,7 +14,7 @@ ale mam nadzieję, że następny odcinek pokaże, jak można ją ciekawie
 wykorzystać (na razie nie zdradzę, jakie to wykorzystanie).
 
 Planuję, że takie artykuły lub cykle zdominują Clojurową część tego
-bloga -- będę się tu dzielił rozwiązaniami praktycznych problemów, na
+bloga – będę się tu dzielił rozwiązaniami praktycznych problemów, na
 jakie natrafiam. Nie będzie tu artykułów w stylu „hej, jaki fajny nowy
 framework XYZ, napiszmy w nim Hello World przy wykorzystaniu technologii
 ABC!”, chyba że XYZ lub ABC będą przydatnymi narzędziami do rozwiązania
@@ -58,13 +58,13 @@ miejsce. Jak to zrobić imperatywnie?
 * Zejdź dwa razy w dół w prawo („dobierz się” do węzła 6).
 * Wstaw czwórkę na lewo od bieżącego węzła.
 
-I już. A teraz funkcyjnie -- pamiętamy, że z drzewa robimy nowe drzewo:
+I już. A teraz funkcyjnie – pamiętamy, że z drzewa robimy nowe drzewo:
 
 * Nowym drzewem jest drzewo, którego korzeniem jest korzeń drzewa
-wyjściowego, lewym poddrzewem -- lewe poddrzewo drzewa wyjściowego, a
+wyjściowego, lewym poddrzewem – lewe poddrzewo drzewa wyjściowego, a
 prawym poddrzewem drzewo, którego korzeniem jest korzeń prawego
-poddrzewa drzewa wyjściowego, lewym poddrzewem -- drzewo składające się
-z tylko jednego węzła 4, a prawym poddrzewem -- prawe poddrzewo prawego
+poddrzewa drzewa wyjściowego, lewym poddrzewem – drzewo składające się
+z tylko jednego węzła 4, a prawym poddrzewem – prawe poddrzewo prawego
 poddrzewa drzewa wyjściowego.
 
 Pierwsze podejście jest łatwiejsze, prawda? Zipper pozwala nam zachować

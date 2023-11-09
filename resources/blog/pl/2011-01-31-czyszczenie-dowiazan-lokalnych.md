@@ -16,7 +16,7 @@ dowiązań”.
 Wyobraźmy sobie taką sytuację: mamy do wykonania skomplikowane
 obliczenie. Możemy je podzielić na mniejsze kroki; na każdym etapie
 wyliczamy nowy pośredni wynik na podstawie tylko niewielu ostatnich
-kroków -- jednego, może dwóch. Załóżmy jeszcze, że te pośrednie wyniki
+kroków – jednego, może dwóch. Załóżmy jeszcze, że te pośrednie wyniki
 są dużych rozmiarów: powiedzmy setek megabajtów. To częsty przypadek,
 kiedy wykonuje się np. obliczenia na dużych, gęstych macierzach:
 najpierw normalizujemy każdy z wektorów naszej macierzy, potem ją

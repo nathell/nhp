@@ -7,7 +7,7 @@ categories: informatyka matematyka
 ---
 
 [Claygirl pisze na blogu GeekGirls][1], że wbrew powszechnemu
-mniemaniu, informatyka to nie matematyka -- i że informatykowi
+mniemaniu, informatyka to nie matematyka – i że informatykowi
 znajomość matematyki jest potrzebna w bardzo ograniczonym
 zakresie. Zdziwiłem się, bo jestem odmiennego zdania i zawsze wydawało
 mi się, że to właśnie pogląd, że informatyka _jest_ częścią
@@ -23,7 +23,7 @@ matematykę. Zaczniemy więc od definicji encyklopedycznych.
 
 ## Wikipedia dixit
 
-> [Informatyka][2] -- dyscyplina naukowa i techniczna zajmująca się
+> [Informatyka][2] – dyscyplina naukowa i techniczna zajmująca się
 > przetwarzaniem informacji, a w tym technologiami przetwarzania
 > informacji oraz technologiami wytwarzania systemów przetwarzających
 > informacje.
@@ -38,7 +38,7 @@ słowami całe to bogactwo abstrakcyjnych bytów, jakimi matematyka się
 zajmuje?  Liczby, zbiory, klasy, relacje, funkcje, punkty, przestrzenie,
 formuły, kategorie...)
 
-> [Matematyka][3] -- nauka dostarczająca narzędzi do otrzymywania
+> [Matematyka][3] – nauka dostarczająca narzędzi do otrzymywania
 > ścisłych wniosków z przyjętych założeń, zatem dotycząca
 > prawidłowości rozumowania.
 
@@ -46,7 +46,7 @@ formuły, kategorie...)
 
 Ta definicja w ogóle prześlizguje się nad owym bogactwem; jest
 szersza, bardziej pierwotna i może budzić sprzeciw. Zdaje się
-sugerować, że ilekroć myślimy o czymś -- _czymkolwiek_ -- w sposób
+sugerować, że ilekroć myślimy o czymś – _czymkolwiek_ – w sposób
 uporządkowany, zajmujemy się matematyką!  A jednak wielu matematyków
 uważa, że to właśnie w myśleniu tkwi sedno ich dziedziny. Włodek
 Holsztyński ujmuje to w swoim świetnym [eseju][4] jeszcze zwięźlej:
@@ -69,7 +69,7 @@ ograniczeń dla jej potęgi w tym zakresie”.
 A Poincaré mówi: „sztuka nadawania takich samych nazw różnym rzeczom”.
 Innymi słowy, zdolność dostrzegania podobieństw i abstrahowania od
 różnic. To jabłko jest czymś innym niż tamta gruszka, ale mają ze sobą
-coś wspólnego: liczność -- tak zapewne brzmiało pierwsze, doniosłe
+coś wspólnego: liczność – tak zapewne brzmiało pierwsze, doniosłe
 odkrycie matematyczne.
 
 ## Matematyka w szkole
@@ -130,7 +130,7 @@ co to jest funkcja zmiennej zespolonej!
 
 Tak i my nie musimy tego wiedzieć, pisząc kod czy grzebiąc w bebechach
 systemu. Miejmy jednak świadomość, że w istocie uprawiamy matematykę,
-która jest sztuką myślenia -- i cieszmy się tym.
+która jest sztuką myślenia – i cieszmy się tym.
 
  [1]: http://geekgirls.pl/2011/05/kobieta-tworzaca-internet/
  [2]: http://pl.wikipedia.org/wiki/Informatyka

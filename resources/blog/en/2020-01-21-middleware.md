@@ -101,7 +101,7 @@ I’ll let the comment of that one speak for itself:
 
 > a map implementation that stores both the original (or canonical)
 > key and value for each key/value pair, but performs lookups and
-> other operations using the normalized -- this allows a value to be
+> other operations using the normalized – this allows a value to be
 > looked up by many similar keys, and not just the exact precise key
 > it was originally stored with.
 

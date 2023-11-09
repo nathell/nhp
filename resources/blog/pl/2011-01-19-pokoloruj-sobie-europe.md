@@ -37,7 +37,7 @@ tego postu będzie rekonstrukcją przedsięwziętych przeze mnie kroków.
 
 Formatem źródłowego obrazka jest SVG. Wiedziałem, że to XML-owy
 otwarty format grafiki wektorowej, często widywałem na Wikipedii
-obrazy w tym formacie -- jednak jego ręczna edycja to coś, z czym nie
+obrazy w tym formacie – jednak jego ręczna edycja to coś, z czym nie
 miałem do tej pory do czynienia. Szczęśliwie okazało się, że obrazek z
 mapkami ma prostą strukturę. Krzywa-obwiednia każdego kraju jest
 opisana elementem `path`, wyglądającym mniej więcej tak:
@@ -49,7 +49,7 @@ opisana elementem `path`, wyglądającym mniej więcej tak:
   d="współrzędne kolejnych węzłów krzywej (bardzo dużo)" />
 ```
 
-Warto zwrócić uwagę na atrybut `id` -- jest to dwuliterowy
+Warto zwrócić uwagę na atrybut `id` – jest to dwuliterowy
 skrót ISO-3166-1-ALPHA2 nazwy kraju. Na początku kodu obrazka znajduje
 się zresztą komentarz, który wyjaśnia użyte konwencje
 nazewnicze. Dysponowanie tak porządnie przygotowanymi danymi
@@ -91,7 +91,7 @@ Zaraz! Jaki znowu `SocketException`? Firefox wyświetla tę mapkę
 poprawnie, Chromium też, WTF? W tak świetnym języku, jakim jest
 Clojure, wszystko powinno działać od ręki?!
 
-Cóż, język jest tak dobry, jak dobre są jego biblioteki -- a jeśli
+Cóż, język jest tak dobry, jak dobre są jego biblioteki – a jeśli
 chodzi o Clojure, można to rozwinąć: biblioteki Clojure są tak dobre,
 jak dobre są biblioteki Javy, których używają pod spodem. W tym
 wypadku natrafiliśmy na cechę standardowego (z pakietu `javax.xml`)
@@ -129,7 +129,7 @@ kluczy się składa:
 
 Jest to więc mapa o trzech polach: z nazw (albo z dokumentacji) można
 się domyślić, co zawierają. Pole `:tag` to nazwa elementu XML,
-`:attrs` jest mapą atrybutów tego elementu, a `:content` -- sekwencją
+`:attrs` jest mapą atrybutów tego elementu, a `:content` – sekwencją
 jego podelementów, z których każdy jest znów reprezentowany przez mapę
 o takiej samej strukturze (względnie przez napis, jeśli jest to
 element napisowy):
@@ -175,7 +175,7 @@ wreszcie poprawny.
 ## Kolorujemy Polskę
 
 Widzieliśmy wcześniej, że główny element XML w naszym pliku zawiera 68
-podelementów. Zobaczmy, jakie one są -- wystarczą nam tagi:
+podelementów. Zobaczmy, jakie one są – wystarczą nam tagi:
 
 ``` clojure
 > (map :tag (:content m))
@@ -239,7 +239,7 @@ _destructuring_ („dzielenie struktury”) można przeczytać w
 [odpowiedniej części dokumentacji Clojure][11]), a drugim... funkcja,
 która dostanie jako argument dwuliterowy kod państwa i zwróci HTML-owy
 opis jego koloru (lub `nil`, jeśli kolor dla tego państwa nie jest
-określony -- `color-state` poradzi sobie z tym i zwróci element w
+określony – `color-state` poradzi sobie z tym i zwróci element w
 stanie nienaruszonym).
 
 Mając `color-state`, możemy łatwo napisać funkcję wyższego poziomu,

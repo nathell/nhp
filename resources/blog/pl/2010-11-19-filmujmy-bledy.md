@@ -34,7 +34,7 @@ przypadku, kiedy programista jest fizycznie na drugim końcu
 ręce... albo przynajmniej do niedawna nie mógł.
 
 Od jakiegoś czasu w [Fablo][5] dołączamy do zgłoszeń błędów krótkie
-filmiki -- _screencasty_ z komentarzem głosowym. Z każdym kolejnym
+filmiki – _screencasty_ z komentarzem głosowym. Z każdym kolejnym
 błędem rozwiązanym dzięki wskazaniu w taki sposób coraz bardziej
 przekonuję się do rozlicznych zalet tej metody. Przede wszystkim film
 jest dokładnym zapisem sesji. Widać wszystko, co się działo krok po
@@ -69,8 +69,8 @@ jeszcze do niedawna był powód, dla którego rzadko widzi się takie
 zgłoszenia np. w oprogramowaniu _open source_. Jednak problem ten
 staje się mało znaczący wraz z upowszechnieniem się szybkich łącz.
 Typowa wielkość naszego filmiku to ok. 1.5-2 MB; to naprawdę nie jest
-dużo, a [FogBugz][6] pozwala na bardzo łatwe -- jednym przeciągnięciem
-myszy -- dodanie screencastu do raportu błędu. Większe rzeczy z
+dużo, a [FogBugz][6] pozwala na bardzo łatwe – jednym przeciągnięciem
+myszy – dodanie screencastu do raportu błędu. Większe rzeczy z
 łatwością można udostępnić w [Dropbox][7].
 
 Filmujmy więc błędy!

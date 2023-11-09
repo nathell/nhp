@@ -11,10 +11,10 @@ categories: USOS, programowanie, rant
  [1]: http://www.rp.pl/artykul/10,937291-Studenci-bez-cwiczen.html
  [2]: http://usos.edu.pl/
 
-> -- Poprawki oprogramowania nie są potrzebne, bo oprogramowania
-> lepiej nie da się napisać -- tłumaczy dr Janina Mincer-Daszkiewicz,
+> – Poprawki oprogramowania nie są potrzebne, bo oprogramowania
+> lepiej nie da się napisać – tłumaczy dr Janina Mincer-Daszkiewicz,
 > kierownik Komisji ds. USOS z Uniwersytetu Warszawskiego. Jej
-> zdaniem problem tkwi w liczbie logowań. -- Jeśli w ciągu pierwszych
+> zdaniem problem tkwi w liczbie logowań. – Jeśli w ciągu pierwszych
 > pięciu minut trwania rejestracji na serwery uczelniane rzuca się 5
 > czy 10 tysięcy studentów, to i najlepszy komputer nie pomoże --
 > dodaje.
@@ -34,7 +34,7 @@ użytkowników naraz jest średnio zalogowanych do Facebooka; bez
 kłopotu osiągalne jest [10 tys. żądań na sekundę nawet na pojedynczej maszynie][C10K]).
 Problemem jest raczej mentalność wyczuwalna w pierwszym zdaniu.
 
-Kto pierwszy powiedział: „dzieła sztuki nie są nigdy ukończone -- są
+Kto pierwszy powiedział: „dzieła sztuki nie są nigdy ukończone – są
 porzucane”? Nie wiem; guglanie za „never finished, only abandoned”
 daje najrozmaitsze wyniki i pokazuje tę frazę odnoszoną do
 najrozmaitszych dziedzin, w tym do oprogramowania. Każdy, kto
@@ -48,7 +48,7 @@ nie, nie osiągnął, podobnie jak nie osiągnął go żaden inny system.
 A poprawiać jest co. Świadczy o tym pomruk niezadowolenia setek
 studentów, niemogących „wbić się” do USOSweb. Gdyby USOS realizowany
 był jako przedsięwzięcie komercyjne, to ze względu na to, że realia
-rynkowe wymuszają takie myślenie -- ktoś by w końcu przyszedł i
+rynkowe wymuszają takie myślenie – ktoś by w końcu przyszedł i
 powiedział: „tak nie może być”. Nie może, bo bywa nieużywalne w
 fundamentalny sposób; nie może, bo udostępnienie produktu w takiej
 postaci klientom narazi przedsiębiorstwo na duże straty. Tłumaczenie

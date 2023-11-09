@@ -8,9 +8,9 @@ categories: poezja programowanie
 
 Ludzie dziwnie na mnie patrzą, kiedy powiadam, że programowanie i poezja mają ze sobą wiele wspólnego. A jednak uważam, że tak właśnie jest, i to co najmniej na kilku poziomach.
 
-Jaki jest cel poezji? Na ten temat napisano morze: parafrazując stary dowcip -- gdzie dwóch poetów, tam co najmniej trzy odpowiedzi na to pytanie. Spróbuję jednak uogólnić: poezja ma za zadanie _wzbudzić_ w odbiorcy określone _emocje_ lub przemyślenia, używając do tego celu _słów_.
+Jaki jest cel poezji? Na ten temat napisano morze: parafrazując stary dowcip – gdzie dwóch poetów, tam co najmniej trzy odpowiedzi na to pytanie. Spróbuję jednak uogólnić: poezja ma za zadanie _wzbudzić_ w odbiorcy określone _emocje_ lub przemyślenia, używając do tego celu _słów_.
 
-Warto zwrócić uwagę na tę drugą część, oczywistą przecież, poprzedniego zdania. Język, słowa, to najważniejszy i jedyny środek, jaki poezja ma do dyspozycji do osiągnięcia swojego celu. Dobór słów, kolejność słów, ułożenie słów -- wszystko to ma w poezji kolosalne i fundamentalne znaczenie. Pojedyncze słowa są na wagę złota. Kilka celnie dobranych słów potrafi wyindukować mocny i poruszający obraz; i odwrotnie -- jedno niepasujące słowo może ów obraz zaprzepaścić.
+Warto zwrócić uwagę na tę drugą część, oczywistą przecież, poprzedniego zdania. Język, słowa, to najważniejszy i jedyny środek, jaki poezja ma do dyspozycji do osiągnięcia swojego celu. Dobór słów, kolejność słów, ułożenie słów – wszystko to ma w poezji kolosalne i fundamentalne znaczenie. Pojedyncze słowa są na wagę złota. Kilka celnie dobranych słów potrafi wyindukować mocny i poruszający obraz; i odwrotnie – jedno niepasujące słowo może ów obraz zaprzepaścić.
 
 Kojarzycie ten wyimek z Norwida? Pewnie, że kojarzycie, w końcu zdobił pracownię języka polskiego w co drugiej szkole.
 
@@ -25,7 +25,7 @@ Spójrzmy na kilka przykładów poszukiwania takich słów. Oto przykład zaczer
 
 > By the bye you misquote the same modern author in writing ‘airy between towers’: what is not so? it should be ‘branchy between towers’.
 
-Gwoli wyjaśnienia: „the same modern author” to sam Hopkins, a wiersz, o którym mowa, to „[Duns Scotus's Oxford][1]”, którego incipit adresat listu błędnie cytuje gdzie indziej. Poeta czepia się jednego jedynego słowa, uznając jego zamianę za niefortunną i istotnie osłabiającą przekazywany obraz, w  znamiennym proteście: „powietrzny pomiędzy wieżami -- a cóż takie nie jest?” W domyśle: jeśli nad jakimś krajobrazem górują wieże, to jasne jest, że pomiędzy ich najwyższymi partiami jest dużo przestrzeni, nie ma sensu tego _explicite_ mówić w wierszu; ale Oksford z jego strzelistymi drzewami i rozłożystymi konarami jest w umyśle Hopkinsa bardzo charakterystyczny.
+Gwoli wyjaśnienia: „the same modern author” to sam Hopkins, a wiersz, o którym mowa, to „[Duns Scotus's Oxford][1]”, którego incipit adresat listu błędnie cytuje gdzie indziej. Poeta czepia się jednego jedynego słowa, uznając jego zamianę za niefortunną i istotnie osłabiającą przekazywany obraz, w  znamiennym proteście: „powietrzny pomiędzy wieżami – a cóż takie nie jest?” W domyśle: jeśli nad jakimś krajobrazem górują wieże, to jasne jest, że pomiędzy ich najwyższymi partiami jest dużo przestrzeni, nie ma sensu tego _explicite_ mówić w wierszu; ale Oksford z jego strzelistymi drzewami i rozłożystymi konarami jest w umyśle Hopkinsa bardzo charakterystyczny.
 
 A teraz zacytuję fragment wiersza, o którym Theodore Roosevelt powiedział, że „nie jest pewien, czy go rozumie, ale z całą pewnością go lubi”: „[Luke Havergal][2]” E. A. Robinsona. Wersy 4-5 w pierwszej redakcji tego wiersza, z roku 1896, brzmiały:
 
@@ -101,9 +101,9 @@ index d490bdf..d3b53c2 100644
 +Żeglowałem i w suchych stepach oceanu
 ```
 
-To, co próbuję pokazać na tych przykładach, to to, że dążenie do takiego użycia języka (polskiego, angielskiego, C, Javy...), żeby możliwie klarownie _wyrazić_ w nim to, o co chodzi, i żeby -- cytując C.A.R. Hoare'a -- rezultat miał „obviously no deficiencies”, jest wspólną cechą poetów i programistów.
+To, co próbuję pokazać na tych przykładach, to to, że dążenie do takiego użycia języka (polskiego, angielskiego, C, Javy...), żeby możliwie klarownie _wyrazić_ w nim to, o co chodzi, i żeby – cytując C.A.R. Hoare'a – rezultat miał „obviously no deficiencies”, jest wspólną cechą poetów i programistów.
 
-Gdyby było inaczej, nie toczylibyśmy długich dyskusji na temat wyższości paradygmatu obiektowego nad funkcyjnym albo odwrotnie, nie wymyślalibyśmy takich rzeczy jak _dependency injection_ albo _fluent APIs_, nie mielibyśmy tak bogatego katalogu wzorców projektowych, nie mielibyśmy indywidualnych upodobań stylistycznych, nie pisalibyśmy dokumentów o nazwie `CodingStyle`, nie rozróżnialibyśmy pomiędzy kodem obleśnym i ładnym, wreszcie -- widząc ten pierwszy -- nie mielibyśmy odruchu, żeby go natychmiast przepisać.
+Gdyby było inaczej, nie toczylibyśmy długich dyskusji na temat wyższości paradygmatu obiektowego nad funkcyjnym albo odwrotnie, nie wymyślalibyśmy takich rzeczy jak _dependency injection_ albo _fluent APIs_, nie mielibyśmy tak bogatego katalogu wzorców projektowych, nie mielibyśmy indywidualnych upodobań stylistycznych, nie pisalibyśmy dokumentów o nazwie `CodingStyle`, nie rozróżnialibyśmy pomiędzy kodem obleśnym i ładnym, wreszcie – widząc ten pierwszy – nie mielibyśmy odruchu, żeby go natychmiast przepisać.
 
 „Chodzi mi o to, aby język giętki powiedział wszystko, co pomyśli głowa”, pisał Słowacki. Kiedy o tym myślę, przychodzi mi do głowy Lisp i często powtarzane zdanie, że to programowalny język programowania. Homoikoniczność i makra sprawiają, że pisząc program w Lispie, tworzymy nie tylko kod odpowiedzialny za rozwiązanie naszego problemu w z góry istniejącym języku, ale również rozwijamy i naginamy język, używając neologizmów: nowych, powstałych _ad hoc_ konstrukcji składniowych, o ile tylko pozwalają naturalniej, klarowniej wyrazić sens danego fragmentu kodu. Programowanie w Lispie jest jak bycie Leśmianem.
 

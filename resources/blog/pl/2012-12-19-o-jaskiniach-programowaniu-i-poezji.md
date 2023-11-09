@@ -37,7 +37,7 @@ powierzono opiekę nad jaskinią i w krótkim czasie stał się słynny jako
 władca podziemnego królestwa.
 
 W kilka lat podwoił on znaną połać jaskini, nadał też nazwy --
-półklasyczne, półamerykańskie -- podziemnym korytarzom, rzekom,
+półklasyczne, półamerykańskie – podziemnym korytarzom, rzekom,
 studniom: Rzeka Styks, Sala Lawinowa, Bezdnia, Wielka Kopuła. Wiele z
 tych nazw przetrwało do tej pory. Stephen oprowadzał po jaskini
 turystów, których zaczęło ściągać tam coraz więcej; mapa, którą
@@ -105,7 +105,7 @@ rozpowszechniać się bezpłatnie systemy programistyczne ułatwiające
 tworzenie interaktywnej fikcji. Jednym z nich był Inform (Graham
 Nelson, 1993–): jego pionierska zasługa to skodyfikowanie ścisłych,
 choć poddających się elastycznym modyfikacjom w razie potrzeby,
-domyślnych reguł rządzących konstruowanym światem -- modelu świata.
+domyślnych reguł rządzących konstruowanym światem – modelu świata.
 System ten rozwijał się powoli, acz stabilnie, bez rewolucyjnych zmian,
 aż do wersji siódmej, kiedy Nelson postanowił radykalnie zmienić
 sposób tworzenia IF przy użyciu Informu. Co się zmieniło?
@@ -115,12 +115,12 @@ specjalnej składni, obiektowo-imperatywnego paradygmatu programowania
 i sporej związanej z tym teorii. Inform 7 przyjmuje bardziej
 deklaratywne podejście i ukrywa sporą część pracy z tym związanej za
 fasadą języka, czyniąc następny krok w używaniu języka naturalnego:
-nie tylko w produkcie końcowym -- ale też w kodzie źródłowym programu.
+nie tylko w produkcie końcowym – ale też w kodzie źródłowym programu.
 Oto programy w Informie 7 pisze się w języku angielskim (albo do
 złudzenia go przypominającym), tyle tylko, że nieco bardziej
 skodyfikowanym.
 
-Żeby nie być gołosłownym -- oto pokój zawierający jabłko w Informie 6:
+Żeby nie być gołosłownym – oto pokój zawierający jabłko w Informie 6:
 
 ```
 Constant Story "Hello World";
@@ -163,7 +163,7 @@ Stąd już niedaleko do poezji. Na pewnym blogu ogłoszone zostało
 wyzwanie: czy da się napisać rymujący się wiersz (choćby i z rymami w
 stylu Nasha), który jest *jednocześnie* kompilującym się programem w
 Informie 7? Okazało się, że tak. I to nie byle jaki wiersz, bo
-sonet (a nawet metasonet -- jego tematem są bowiem sonety!)
+sonet (a nawet metasonet – jego tematem są bowiem sonety!)
 
 Oto on:
 
@@ -187,7 +187,7 @@ You really are a pal, Sir Francis Bacon.'"
 ```
 
 (Przypis: akcje w Informie są motorem zmiany stanu świata; przebieg
-akcji jest podzielony na kilka etapów -- dokładnie specyfikuje to
+akcji jest podzielony na kilka etapów – dokładnie specyfikuje to
 model świata, o którym pisałem wcześniej. Specyfikacja, że coś ma się
 wykonać „zamiast” jakiejś akcji, oznacza interferencję w model na
 pierwszym etapie, zanim zaczną działać normalne reguły.)
@@ -211,6 +211,6 @@ Uśmiechasz się, Will także, chyląc głowę w skłonie:
 „Dobry z Waści przyjaciel, Franciszku Baconie.”"
 ```
 
-Oczywiście, to tylko połowa roboty, ta łatwiejsza -- drugą będzie
+Oczywiście, to tylko połowa roboty, ta łatwiejsza – drugą będzie
 przeportowanie Informu 7 na język polski, tak aby powyższy wiersz
 dało się skompilować i sobie pograć :-)

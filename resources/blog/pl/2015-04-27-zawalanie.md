@@ -11,7 +11,7 @@ Tekst na ten sam temat popełniła ostatnio [Kya][1]; zachęcam do przeczytania,
 
 ## Zawalamy sprawę
 
-Istotą zawalania jest zaszkodzenie komuś. Świadome czy nie, bardziej lub mniej brzemienne w skutki -- spieprzyłeś, jeśli czyjaś sytuacja jest gorsza niż była albo powinna być. Tym kimś możesz być Ty sam albo ktoś inny. Pół biedy, jeśli to Ty sam: na przykład przez lenistwo oblałeś egzamin albo dostałeś zupełnie niepotrzebny, bezsensowny mandat za niezdjęcie w porę nogi z gazu w zabudowanym. Wtedy jest łatwiej powiedzieć „trudno” i wziąć to na klatę. Wtedy masz pełny obraz sytuacji i uczucia nikogo innego nie wchodzą w zakres problemu. Możesz podziękować tylko samemu sobie i tylko z samym sobą to przepracować.
+Istotą zawalania jest zaszkodzenie komuś. Świadome czy nie, bardziej lub mniej brzemienne w skutki – spieprzyłeś, jeśli czyjaś sytuacja jest gorsza niż była albo powinna być. Tym kimś możesz być Ty sam albo ktoś inny. Pół biedy, jeśli to Ty sam: na przykład przez lenistwo oblałeś egzamin albo dostałeś zupełnie niepotrzebny, bezsensowny mandat za niezdjęcie w porę nogi z gazu w zabudowanym. Wtedy jest łatwiej powiedzieć „trudno” i wziąć to na klatę. Wtedy masz pełny obraz sytuacji i uczucia nikogo innego nie wchodzą w zakres problemu. Możesz podziękować tylko samemu sobie i tylko z samym sobą to przepracować.
 
 Zatem reszta notki będzie poświęcona wyłącznie przypadkowi B: zaszkodziłeś komuś innemu. To mogą być rzeczy zupełnie różnego kalibru: może na przykład nastąpiłeś komuś na stopę, przez co druga osoba odczuwa ból fizyczny. Może zgubiłeś czyjąś własność. Może zapomniałeś o umówionym spotkaniu. Może powiedziałeś coś, co sprawiło drugiej osobie ból. Może nie wywiązałeś się z danej komuś obietnicy. Może wprowadziłeś kogoś w błąd. Może nadużyłeś czyjegoś zaufania. Może to zaufanie nadszarpnąłeś albo zrujnowałeś zupełnie.
 
@@ -77,7 +77,7 @@ Tak więc pierwsza wersja niniejszej notki stwierdzała kategorycznie, że „ni
 
 Pokrzywdzonemu jest łatwiej, kiedy wie, że traktujesz sprawę serio; oszczędza to niepotrzebnej frustracji i rozgoryczenia. Wniosek jest, jak sądzę, taki, że przepraszanie jest ważne i potrzebne, ale trzeba mieć świadomość niebezpieczeństw, jakie się z nim wiążą, zachowywać je na sytuacje, w których obie strony czują się z nim lepiej, i stosować oszczędnie, aby uniknąć dewaluacji.
 
-Jeśli masz nawyk irytującego przepraszania za każdą duperelę, to z moich obserwacji wynika, że znacznie łatwiejsze od wykorzenienia jest zastąpienie go innym, pożytecznym nawykiem. Otóż zamiast „przepraszam” warto nauczyć się mówić „dziękuję”; niekoniecznie w sytuacjach fakapowych, ale ogólnie w życiu. Wdzięczność można wyrażać za najdrobniejsze rzeczy i bardzo często, a mimo to jest to potężne i prawdziwe uczucie. Nie trzeba nawet adresować jej do konkretnej osoby -- można emitować ją w nieokreślonym kierunku, rozciągając na cały świat, i też działa.
+Jeśli masz nawyk irytującego przepraszania za każdą duperelę, to z moich obserwacji wynika, że znacznie łatwiejsze od wykorzenienia jest zastąpienie go innym, pożytecznym nawykiem. Otóż zamiast „przepraszam” warto nauczyć się mówić „dziękuję”; niekoniecznie w sytuacjach fakapowych, ale ogólnie w życiu. Wdzięczność można wyrażać za najdrobniejsze rzeczy i bardzo często, a mimo to jest to potężne i prawdziwe uczucie. Nie trzeba nawet adresować jej do konkretnej osoby – można emitować ją w nieokreślonym kierunku, rozciągając na cały świat, i też działa.
 
 ## Go forth
 

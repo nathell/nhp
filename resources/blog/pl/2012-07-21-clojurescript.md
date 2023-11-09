@@ -7,7 +7,7 @@ categories: Clojure JavaScript programowanie
 ---
 
 Rich Hickey, autor Clojure, wyrasta na Steve'a Jobsa nowoczesnych
-języków programowania -- przynajmniej jeśli idzie o sposób prezentacji
+języków programowania – przynajmniej jeśli idzie o sposób prezentacji
 swoich dzieł. Oto kilka dni temu na grupie dyskusyjnej Clojure pojawiło
 się [ogłoszenie][1], że Rich wystąpi na najbliższym spotkaniu
 nowojorskiej grupy użytkowników Clojure, że strumień wideo z wystąpienia
@@ -18,8 +18,8 @@ JavaScriptu, łączący moc pierwszego języka z powszechnością drugiego.
 
 JavaScript bywa nazywany „czarnym koniem” języków programowania,
 najbardziej niedocenianym językiem minionej dekady i najważniejszym
-obecnej. Istotnie, silniki JavaScriptu w przeglądarkach -- a także
-wolnostojące, jak Node.js -- poczyniły w ostatnich latach kolosalne
+obecnej. Istotnie, silniki JavaScriptu w przeglądarkach – a także
+wolnostojące, jak Node.js – poczyniły w ostatnich latach kolosalne
 postępy, jeśli chodzi o wydajność, narzędzie to jest coraz chętniej
 używane do programowania coraz poważniejszych aplikacji i nie mijając
 się z prawdą można powiedzieć, że JavaScript jest wszędzie.

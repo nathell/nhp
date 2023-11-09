@@ -9,7 +9,7 @@ categories: Clojure programowanie
 [Jacek Laskowski][1] podaje ciekawy [przykład wykorzystania monad w Clojure][2] --
 aplikowanie kolejnych funkcji do wyrażenia,
 dopóki ma ono wartość nie będącą `nil`.  Przykład mi się
-podoba, bo jest prosty, ale nie trywialny -- wykorzystuje monadę
+podoba, bo jest prosty, ale nie trywialny – wykorzystuje monadę
 `maybe` do eleganckiego rozwiązania rzeczywistego problemu.  Jest to w
 dodatku problem, z którym borykają się czasem programiści
 piszący w Javie, co widać choćby w [tym wątku][3].
@@ -25,7 +25,7 @@ Jacek tak postawił oryginalny problem:
 
 > Napisać metodę, która zwraca walutę, dla pracownika z danego
 > departamentu międzynarodowej korporacji. Pracownik jest przypisany
-> do departamentu (np. poprzez mapę -- pracownik-departament),
+> do departamentu (np. poprzez mapę – pracownik-departament),
 > departament do kraju, a kraj do waluty. Funkcja na wejściu dostaje
 > nazwę, identyfikator, lub cokolwiek jednoznacznie reprezentującego
 > pracownika, a na wyjściu symbol waluty, np. dla „Jacek” powinno być

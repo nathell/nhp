@@ -8,7 +8,7 @@ categories: przeczytane
 
 Mówi się czasem, że zapamiętujemy wszystko, co rejestrują nasze
 zmysły. Nawet jeśli wydaje się, że jakieś mało z pozoru znaczące
-zdarzenie z przeszłości odeszło w zapomnienie -- bywa, że ni stąd ni
+zdarzenie z przeszłości odeszło w zapomnienie – bywa, że ni stąd ni
 zowąd przypominamy je sobie pod wpływem nowych zmysłowych doznań albo
 skojarzeń. I właśnie czegoś takiego ostatnio doświadczyłem, odłożywszy
 na półkę właśnie przeczytany „Traktat o łuskaniu fasoli” Wiesława
@@ -52,7 +52,7 @@ Jeśli przyjąć definicję prozy Włodka Holsztyńskiego (parafrazuję:
 proza to taki tekst literacki, w którym autor podaje 90% obrazu,
 zostawiając czytelnikowi zbudowanie sobie pozostałych 10%; ta
 definicja stawia prozę w opozycji do poezji, w której ta proporcja
-jest pół na pół -- te procenty są oczywiście umowne, ale dają pewne
+jest pół na pół – te procenty są oczywiście umowne, ale dają pewne
 wyobrażenie o roli czytelnika), to na tej skali „Traktat...” sytuuje
 się gdzieś pomiędzy. Bo jest niedopowiedziany, bo budzi wątpliwości,
 bo pozwala zajrzeć do niedookreślonego świata, który nie jest moim

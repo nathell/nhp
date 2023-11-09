@@ -20,7 +20,7 @@ Czy te wyliczenia są słuszne?
 Byłyby, gdyby liczby przytoczone przez autora znaczyłyby właśnie to,
 co autorowi wydaje się, że znaczą. W szczególności, jeśli dobrze rozumiem,
 autor zakłada, że owe 17,7% jest odsetkiem osób homoseksualnych w społeczeństwie,
-które zostały pobite ze względu na swoją orientację; innymi słowy -- że to
+które zostały pobite ze względu na swoją orientację; innymi słowy – że to
 estymacja stosunku liczby homoseksualnych ofiar pobić do liczby wszystkich
 homoseksualistów w społeczeństwie.
 
@@ -100,7 +100,7 @@ _Klapki na oczach_, indeed.
 
 Smutno mi. Niezależnie od wszystkiego uważam, że zacietrzewienie,
 zadufanie, zapatrzenie w swój jedynie słuszny punkt widzenia i chęć
-udowodnienia go światu za wszelką cenę -- nigdy nie sprzyjają
+udowodnienia go światu za wszelką cenę – nigdy nie sprzyjają
 konstruktywnej dyskusji.
 
  [1]: http://www.kph.org.pl/publikacje/raport_przemoc.pdf

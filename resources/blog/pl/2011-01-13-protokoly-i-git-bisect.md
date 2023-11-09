@@ -27,7 +27,7 @@ wyniki niż „śledzie”.
 Analiza problemu ujawniła, że algorytm odpowiedzialny za „polszczenie”
 zapytania powinien być stosowany szerzej. Mamy dwie implementacje
 pewnej struktury danych używanej w tym algorytmie: jedna z nich jest
-czysto funkcyjna i zbudowana z rdzennie clojurowego tworzywa -- map i
+czysto funkcyjna i zbudowana z rdzennie clojurowego tworzywa – map i
 wektorów; druga zaś jest ukryta za fasadą używanej przez nas
 biblioteki Javowej o prostym interfejsie, a więc explicite do tej pory
 z niej nie korzystaliśmy. Algorytm polszczenia był uruchamiany tylko
@@ -35,11 +35,11 @@ na pierwszej implementacji (co wystarczy w wielu przypadkach, ale nie
 zawsze), a powinien być na obu.
 
 Koncepcyjnie te dwie implementacje są podobne, ale mają zupełnie różne
-API -- zrazu wydawało mi się więc, że będę musiał pisać drugą
+API – zrazu wydawało mi się więc, że będę musiał pisać drugą
 wersję funkcji realizującej „polszczenie”. To jednak nie byłoby
 optymalne: duplikacja kodu oznacza dwa razy więcej okazji do
 popełnienia błędu i konieczność pamiętania o wprowadzeniu zmian
-każdorazowo w obu miejscach. Z pomocą przyszły [protokoły][3] -- nowy
+każdorazowo w obu miejscach. Z pomocą przyszły [protokoły][3] – nowy
 element języka wprowadzony w Clojure 1.2.
 
 Protokół jest czymś bardzo zbliżonym do znanego z Javy interfejsu: to
