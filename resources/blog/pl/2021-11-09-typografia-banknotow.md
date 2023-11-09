@@ -10,7 +10,7 @@ A kto był najpowszechniejszym polskim malarzem? Albo szerzej — artystą plast
 
 [Andrzeja Heidricha][2], projektanta polskich banknotów.
 
-<figure><img src="/img/blog/kosciuszko.jpg" alt="Banknot 500 zł z Tadeuszem Kościuszką"><figcaption>Pierwszy banknot Andrzeja Heidricha, który wszedł do obiegu: 500 zł z Tadeuszem Kościuszką (fot. Piotr Kamionka/REPORTER/East News, ilustracja cyt. za [culture.pl][6])</figcaption></figure>
+![Pierwszy banknot Andrzeja Heidricha, który wszedł do obiegu: 500 zł z Tadeuszem Kościuszką (fot. Piotr Kamionka/REPORTER/East News, ilustracja cyt. za [culture.pl][6])](/img/blog/kosciuszko.jpg "Banknot 500 zł z Tadeuszem Kościuszką")
 
 To z jego pracowni wyszły wzory wszystkich banknotów, którymi płacimy codziennie od 1975 roku. To jego dzieła przetrwały zmianę ustroju, zmiany władzy i denominację. To jemu Narodowy Bank Polski, z okazji półwiecza współpracy, poświęcił [specjalny album][3].
 
