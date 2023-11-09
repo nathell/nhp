@@ -6,8 +6,14 @@
   [])
 
 (def past-talks
-  [{:title "Tweaking your workflow to help you learn a language"
-    :url "talks/20230710-warsawjs"
+  [{:title "Cross-pollinating ideas #1: Speccing data"
+    :url "talks/20231108-warsawjs"
+    :event "WarsawJS"
+    :event-url "https://warsawjs.com"
+    :city "Warsaw"
+    :date "2023-11-08"}
+   {:title "Tweaking your workflow to help you learn a language"
+    :url "talks/20230712-warsawjs"
     :event "WarsawJS"
     :event-url "https://warsawjs.com"
     :city "Warsaw"
