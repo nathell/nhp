@@ -7,7 +7,7 @@ categories: co-robić-jak-żyć
 
 Dziś będzie o tym, jak zawalać sprawy i przeżyć.
 
-Tekst na ten sam temat popełniła ostatnio [Kya][1]; zachęcam do przeczytania, ponieważ są tam same dobre i prawdziwe rzeczy. Tym niemniej czuję się upoważniony do napisania postscriptum. To jedna z niewielu dziedzin, w których mam bogate, długoletnie i udokumentowane doświadczenie, więc nie muszę silić się na besserwisserstwo. Jednocześnie, `#include <stddisclaimer.h>`: całość jest pisana wyłącznie z mojej perspektywy. Będę pisał o sprawach trudnych dla mnie, bazując na moich własnych odczuciach i opiniach. U mnie działa, ale jakkolwiek wydaje mi się to sensowne, niekoniecznie musi działać dla kogokolwiek innego. Ludzie są różnie skonstruowani.
+Tekst na ten sam temat popełniła ostatnio [Kya][1]; zachęcam do przeczytania, ponieważ są tam same dobre i prawdziwe rzeczy. Tym niemniej czuję się upoważniony do napisania postscriptum. To jedna z niewielu dziedzin, w których mam bogate, długoletnie i udokumentowane doświadczenie, więc nie muszę silić się na besserwisserstwo. Jednocześnie, `#include &lt;stddisclaimer.h&gt;`: całość jest pisana wyłącznie z mojej perspektywy. Będę pisał o sprawach trudnych dla mnie, bazując na moich własnych odczuciach i opiniach. U mnie działa, ale jakkolwiek wydaje mi się to sensowne, niekoniecznie musi działać dla kogokolwiek innego. Ludzie są różnie skonstruowani.
 
 ## Zawalamy sprawę
 
