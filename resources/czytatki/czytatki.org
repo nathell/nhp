@@ -1,5 +1,12 @@
 # -*- typo-language: Polish; -*-
 
+* 2025
+
+** 1–2, 4. Maciej Siembieda, Trylogia grecka (Katharis; Nemezis; Kairos)
+** 3. Andrzej Sapkowski, Ostatnie życzenie
+** 5. Alejandro Zambra, Chilijski poeta
+** 6. Andrzej Sapkowski, Miecz przeznaczenia
+
 * 2024
 
 ** 1. George R. R. Martin, Gra o tron
@@ -27,6 +34,27 @@ Piękna, piękna książka. 9/10 (bardzo mocne).
 ** 8. John Irving, Regulamin tłoczni win
 ** 9. Joanna Kuciel-Frydryszak, Służące do wszystkiego
 ** 10. Karsten Dusse, Zabijaj uważnie
+** 11. George R. R. Martin, Starcie królów
+** 12. Harlan Coben, W domu
+** 13-15. Jakub Szamałek, Ukryta sieć (Cokolwiek wybierzesz; Kimkolwiek jesteś; Gdziekolwiek spojrzysz)
+** 16. Henning Mankell, Psy z Rygi
+** 17. Barbara Kingsolver, Demon Copperhead
+** 18–20. Sławek Gortych, Karkonoska seria kryminalna (Schronisko, które przestało istnieć; Schronisko, które przetrwało; Schronisko, które spowijał mrok)
+** 21–25. Peter V. Brett, Cykl demoniczny (Malowany człowiek; Pustynna Włócznia; Wojna w blasku dnia; Tron z czaszek; Otchłań)
+** 26. Anne McCaffrey, The Ship Who Sang
+** 27. John Grisham, Malowany dom
+** 28. Larry McMurtry, Na południe od Brazos
+** 29. Fredrik Backman, Niespokojni ludzie
+** 30. Laura Esquivel, Przepiórki w płatkach róży
+** 31. John Grisham, Obrońca ulicy
+** 32-33. George R. R. Martin, Nawałnica mieczy (Stal i śnieg; Krew i złoto)
+** 34-36. Fredrik Backman, Miasto niedźwiedzia (Miasto niedźwiedzia; My przeciwko wam; Zwycięzcy)
+** 37-38. George R. R. Martin, Uczta dla wron (Cienie śmierci; Sieć spisków)
+** 39. Linn Strømsborg, Kurwa, kurwa, kurwa
+** 40-41. George R. R. Martin, Taniec ze smokami (cz. 1-2)
+** 42. Bonnie Garmus, Lekcje chemii
+** 43. Fredrik Backman, Britt-Marie tu była
+** 44. Stanisław Lem i Ursula K. Le Guin, I mów, że moja chwała z przyjaciół się bierze (Listy 1972–1984)
 
 * 2023
 
