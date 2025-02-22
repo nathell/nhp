@@ -82,9 +82,11 @@
     (when date-fn
       (date-fn (:date front-matter)))))
 
-(defn post [{{title :title} :front-matter, content :content, extra :extra :as blog}]
-  [:div.blog-post
+(defn post [{{title :title, subtitle :subtitle} :front-matter, content :content, extra :extra :as blog}]
+  [:div.blog-post {:class (when subtitle "has-subtitle")}
    [:h2.title (unsierotkize title)]
+   (when subtitle
+     [:h3.subtitle (unsierotkize subtitle)])
    [:p.date (blog-date blog)]
    [:div.body content]
    extra])

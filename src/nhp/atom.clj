@@ -41,10 +41,10 @@
 (defn content->xhtml [content]
   [{:tag ::xhtml/p, :content ["content"]}])
 
-(defn post->entry [{content :content, lang :lang, {:keys [title date]} :front-matter, :as post}]
+(defn post->entry [{content :content, lang :lang, {:keys [title subtitle date]} :front-matter, :as post}]
   {:tag ::atom/entry
    :content [{:tag ::atom/id, :content [(post-id post)]}
-             {:tag ::atom/title, :content [title]}
+             {:tag ::atom/title, :content [(cond-> title subtitle (str " " subtitle))]}
              {:tag ::atom/link, :attrs {:href (post-url post)}}
              {:tag ::atom/updated, :content [(str (t/instant date))]}
              {:tag ::atom/content, :attrs {:type "html"}, :content (hiccup/html content)}]})
