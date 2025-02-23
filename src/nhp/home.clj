@@ -42,9 +42,9 @@
       [:li "Social media: "
        [:a {:href "https://mastodon.social/@nathell"} "Mastodon"]
        ", "
-       [:a {:href "https://www.linkedin.com/in/nathell/"} "LinkedIn"]
+       [:a {:href "https://bsky.app/profile/nathell.bsky.social"} "Bluesky"]
        ", "
-       [:a {:href "https://twitter.com/nathell"} "Twitter"]
+       [:a {:href "https://www.linkedin.com/in/nathell/"} "LinkedIn"]
        ", "
        [:a {:href "https://www.facebook.com/daniel.janus"} "Facebook"]]]]]])
 
