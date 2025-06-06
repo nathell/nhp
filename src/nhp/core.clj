@@ -3,6 +3,7 @@
     [clojure.java.io :as io]
     [me.raynes.fs :as fs]
     [nhp.blogs :as blogs]
+    [nhp.cycling :as cycling]
     [nhp.czytatki :as czytatki]
     [nhp.home :as home]
     [nhp.poems :as poems]
@@ -17,6 +18,7 @@
 (defn build [_args]
   (copy-assets)
   (home/generate)
+  (cycling/generate)
   (talks/generate)
   (poems/generate)
   (blogs/generate)

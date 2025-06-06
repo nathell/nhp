@@ -25,9 +25,6 @@
        [:a {:href "https://blog.danieljanus.pl"} "English"]
        ", "
        [:a {:href "https://plblog.danieljanus.pl"} "Polish"]]
-      [:li "My "
-       [:a {:href "https://danieljanus.substack.com"} "Land’s End to John o’ Groats 2023 bike tour newsletter"]
-       " (Polish)"]
       [:li
        [:a {:href "translations"} "Poetry translations"]
        " (English → Polish)"]]]
@@ -35,6 +32,11 @@
      [:h2 "Speaking"]
      [:ul
       [:li [:a {:href "talks.html"} "List of my talks"]]]]
+    [:section.cycling
+     [:h2 "Miscellaneous"]
+     [:ul
+      [:li
+       [:a {:href "cycling.html"} "Reports from my cycling trips"] " (Polish)"]]]
     [:section.contact
      [:h2 "Contact"]
      [:ul
