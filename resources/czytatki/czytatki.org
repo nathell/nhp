@@ -1,5 +1,11 @@
 # -*- typo-language: Polish; -*-
 
+* 2026
+
+** 1-6. Lee Child, Jack Reacher (61 godzin; Czasami warto umrzeć; Ostatnia sprawa; Poszukiwany; Nigdy nie wracaj; Sprawa osobista)
+** 7. Maciej Siembieda, Gołoborze
+** 8. Robert Harris, Indeks strachu
+
 * 2025
 
 ** 1–2, 4. Maciej Siembieda, Trylogia grecka (Katharis; Nemezis; Kairos)
@@ -7,6 +13,39 @@
 ** 5. Alejandro Zambra, Chilijski poeta
 ** 6. Andrzej Sapkowski, Miecz przeznaczenia
 ** 7. Andrzej Sapkowski, Krew elfów
+** 8. Zach Tellman, Elements of Clojure
+
+Przeczytałem książkę i dostąpiłem Oświecenia, więc będzie polecanka.
+
+Książka ma w tytule nazwę konkretnego języka programowania („Elements of Clojure”), ale to mylące. Tak naprawdę jest to książka o filozofii programowania. Znajdą w niej coś dla siebie wszyscy programiści i architekci software’u, niezależnie od stosu technologicznego, jakiego używają.
+
+O samym Clojure jest tu bardzo mało. Za to mnóstwo uwagi poświęca Zach Tellman temu, jaką strukturę nadajemy kodowi, jak go modularyzujemy i porządkujemy według warstw, jak je rozgraniczamy, i w jaki sposób wszystko to wpływa – na zasadzie sprzężenia zwrotnego – na nasze rozumienie problemu, który próbujemy rozwiązać. A także o tym, jak czytamy kod i jak formułujemy mentalne modele jego działania. O tym, w jaki sposób kawałki kodu łączą się w moduły, a te w procesy i systemy; o własnościach kodu i jego interakcjach ze środowiskiem i kontekstem na wszystkich tych poziomach.
+
+Dla zilustrowania koncepcji nie waha się autor sięgać po analogie z historii czy biologii. Jest więc o postrzeganiu Wenus przez starożytnych Greków, o historii zegarów mechanicznych i o tym, jak wygląda model środowiska u kleszczy.
+
+Całość zamyka się w czterech rozdziałach: „Names”, „Idioms”, „Indirection” i „Composition”. Warto zauważyć, że cały rozdział jest o nazwach, które (jak zauważa autor) są najczęściej używanym i najważniejszym narzędziem abstrakcji, jakie mamy do dyspozycji – a mimo to w edukacji informatycznej poświęca się im zaskakująco mało uwagi.
+
+Rzecz jest krótka (120 stron), do uważnego przeczytania w cztery wieczory. Kilka dni temu autor udostępnił jej pełny tekst za darmo (link w komentarzu), więc jest dobra okazja, żeby się zapoznać. To bodaj najlepsza książka tego typu, jaką czytałem – a może najlepsza o programowaniu w ogóle. Czytajcie Tellmana: każdy jego rozdział wart jest więcej, niż sążniste tomiszcza Wujka Boba. Bardzo polecam.
+
+** 9. Henning Mankell, Biała lwica
+** 10. Scott Lynch, Kłamstwa Locke'a Lamory
+** 11. Andrzej Sapkowski, Czas pogardy
+** 12. Scott Lynch, Na szkarłatnych morzach
+** 13. Scott Lynch, Republika złodziei
+** 14. Philip K. Dick, Ubik
+** 15. Andrzej Sapkowski, Chrzest ognia
+** 16. Paul Auster, Moon Palace
+** 17. Muriel Spark, Jazda
+** 18. Kurt Vonnegut, Śniadanie mistrzów
+** 19. Andrzej Sapkowski, Wieża jaskółki
+** 20. Andrzej Sapkowski, Pani Jeziora
+** 21. Marek Krajewski, Diabeł stróż
+** 22–25, 27–29. Maciej Siembieda, Cykl o Jakubie Kani (444; Miejsce i imię; Wotum; Kukły; Kołysanka; Orient; Sobowtór)
+** 26. John Steinbeck, Na wschód od Edenu
+** 30. Zyta Rudzka, Ten się śmieje, kto ma zęby
+** 31. Maciej Siembieda, Gambit
+** 32. Robert A. Heinlein, Drzwi do lata
+** 33–45. Lee Child, Jack Reacher (Poziom śmierci; Uprowadzony; Wróg bez twarzy; Podejrzany; Echo w płomieniach; Bez pudła; Siła perswazji; Nieprzyjaciel; Jednym strzałem; Bez litości; Elita zabójców; Nic do stracenia; Jutro możesz zniknąć)
 
 * 2024
 
