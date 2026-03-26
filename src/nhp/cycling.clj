@@ -12,7 +12,8 @@
    {:year 2021, :name "Zielona Siódemka", :route "Warszawa – Gdańsk", :days "6–10 lipca", :link "https://www.facebook.com/daniel.janus/posts/pfbid0Jd8Hy75w3WTog2rPr64hcoxsM5UMVo2jQ8PP75Yp65myFLceynWh6NN7By7a5LwGl"}
    {:year 2022, :name "Szlak Łaby", :route "Dessau – Boisenburg", :days "26–30 czerwca", :link "https://www.facebook.com/media/set/?set=a.10209264146117358"}
    {:year 2023, :name "Wielka Brytania", :route "Land’s End – John o’Groats", :days "8–28 czerwca", :link "https://danieljanus.substack.com"}
-   {:year 2024, :name "Velo Dunajec", :route "Szczawnica – Nowy Targ – Szczawnica – Tarnów", :days "28–30 czerwca", :link "https://www.facebook.com/daniel.janus/posts/pfbid02eJNTNXXXESprzzC6bLdtBsSTLbRsdxFayEtkoMedQRZ7HqjaKvUY8XSWuB7vN15Sl"}])
+   {:year 2024, :name "Velo Dunajec", :route "Szczawnica – Nowy Targ – Szczawnica – Tarnów", :days "28–30 czerwca", :link "https://www.facebook.com/daniel.janus/posts/pfbid02eJNTNXXXESprzzC6bLdtBsSTLbRsdxFayEtkoMedQRZ7HqjaKvUY8XSWuB7vN15Sl"}
+   {:year 2025, :name "Szlak wokół Tatr", :route "Szczawnica – Nowy Targ – Dolný Kubín – Liptovský Mikuláš – Poprad – Ždiar – Szczawnica", :days "9–12 sierpnia", :link "https://plblog.danieljanus.pl/2025/08/24/szlak-wokol-tatr/"}])
 
 (defn content []
   [:div.main.content
