@@ -1,7 +1,9 @@
 ---
 date: 2022-12-24
 title: Jak zostałem programistą
-categories: programowanie wspominki
+categories:
+  - programowanie
+  - wspominki
 ---
 
 Nazywam się Daniel Janus, mam 38 lat i od 31 lat jestem programistą.

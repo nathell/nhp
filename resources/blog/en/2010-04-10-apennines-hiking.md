@@ -1,7 +1,8 @@
 ---
 title: Hiking in the Apennines
 date: 2010-04-04
-categories: hiking
+categories:
+  - hiking
 ---
 
 I’ve recently done a week-long hike in the Umbria-Marche region of the Italian Apennines (the vicinity of [Monte Catria][1], near [Cantiano][2], to be more precise), and here are some tips I’d like to share.

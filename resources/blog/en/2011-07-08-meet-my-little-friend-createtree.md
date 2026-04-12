@@ -1,7 +1,11 @@
 ---
 title: Meet my little friend createTree
 date: 2011-07-08
-categories: JavaScript Mobile-Safari iPhone programming
+categories:
+  - JavaScript
+  - Mobile-Safari
+  - iPhone
+  - programming
 ---
 
 I’ve recently been developing an iPhone application in my spare time. I’m not going to tell you what it is just yet (I will post a separate entry once I manage to get it into the App Store); for now, let me just say that I’m writing it in JavaScript and HTML5, using [PhoneGap][1] and [jQTouch][2] to give it a native touch.

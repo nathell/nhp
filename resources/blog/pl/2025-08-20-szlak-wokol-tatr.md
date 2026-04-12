@@ -1,7 +1,8 @@
 ---
 date: 2025-08-24
 title: Szlak wokół Tatr, 9–12 sierpnia 2025
-categories: rower
+categories:
+  - rower
 ---
 
 > _Und das ist Leben._<br>

@@ -1,7 +1,9 @@
 ---
 date: 2023-09-09
 title: My mental model of transducers
-categories: programming clojure
+categories:
+  - programming
+  - Clojure
 ---
 
 ## Intro

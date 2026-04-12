@@ -1,7 +1,8 @@
 ---
 date: 2023-10-17
 title: Programowanie wyborcze
-categories: polityka
+categories:
+  - polityka
 ---
 
 A więc już wszystko prawie wiadomo. Kiedy to piszę, jest jeszcze poniedziałek; policzone są głosy z ponad 99% komisji i ostateczny podział mandatów, jeśli jeszcze się zmieni, to minimalnie. W tej chwili Sejm X kadencji zarysowuje się tak:

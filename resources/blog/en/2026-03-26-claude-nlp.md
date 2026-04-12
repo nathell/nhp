@@ -1,7 +1,13 @@
 ---
 date: 2026-03-26
 title: Translating non-trivial codebases with Claude
-categories: llms c++ java clojure haskell nlp
+categories:
+  - LLMs
+  - C++
+  - Java
+  - Clojure
+  - Haskell
+  - NLP
 ---
 
 ## I was wrong (or was I?)

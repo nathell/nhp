@@ -3,7 +3,10 @@ layout: theme:post
 title: Praktyczne użycie monady state
 date: 2012-01-10
 comments: true
-categories: Clojure Haskell programowanie
+categories:
+  - Clojure
+  - Haskell
+  - programowanie
 ---
 
 Wreszcie rozumiem monady!

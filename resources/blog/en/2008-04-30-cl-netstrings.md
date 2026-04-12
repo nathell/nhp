@@ -1,7 +1,9 @@
 ---
 date: 2008-04-30
 title: cl-netstrings
-categories: Lisp programming
+categories:
+  - Lisp
+  - programming
 ---
 
 I’ve just packaged up the Common Lisp netstring handling code that I [wrote a week ago][1] into a neat library. Unsurprisingly enough, it is called cl-netstrings and has its own [home on the Web][2]. It’s even asdf-installable! I wonder whether this one turns out to be useful for anybody besides me…

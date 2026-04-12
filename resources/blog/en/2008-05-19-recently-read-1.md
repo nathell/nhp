@@ -1,7 +1,9 @@
 ---
 date: 2008-05-19
 title: "Recently read #1: Akhmatova meets Bashō (Vasil Bykaŭ, “The Wall”)"
-categories: life poetry
+categories:
+  - life
+  - poetry
 ---
 
 (Introductory note: This post marks the beginning of a new series on this blog, aptly titled “Recently read.” Every now and then I will try to verbalize afterthoughts inspired by the books I happen to read, and post them here. I hope these recommendations or anti-recommmendations might turn out to be useful for someone.)

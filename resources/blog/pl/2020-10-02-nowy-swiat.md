@@ -1,7 +1,8 @@
 ---
 date: 2020-10-02
 title: Rozwiązanie zagadki Radia Nowy Świat
-categories: RNŚ
+categories:
+  - RNŚ
 ---
 
 Dziś na zamkniętej grupie fejsbukowej dla Patronów [Radia Nowy Świat][1] pojawiła się zagadka-szyfr.

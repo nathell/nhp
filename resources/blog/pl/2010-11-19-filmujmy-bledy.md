@@ -3,7 +3,9 @@ layout: theme:post
 title: "Filmujmy błędy!"
 date: 2010-11-19
 comments: true
-categories: Fablo programowanie
+categories:
+  - Fablo
+  - programowanie
 ---
 
 Każdy programista (o ile jego oprogramowanie jest używane przez kogoś

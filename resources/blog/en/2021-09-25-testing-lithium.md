@@ -1,7 +1,9 @@
 ---
 date: 2021-09-25
 title: "Testing a compiler that can’t even print stuff out"
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 I’m enjoying a week-long vacation. In addition to other vacationy things (a trip to Prague, yay!), I wanted to do some off-work programming Just For Fun™ and revisit one of my dormant pet projects, to see if I can make some progress.

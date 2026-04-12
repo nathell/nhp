@@ -1,7 +1,8 @@
 ---
 date: 2008-06-11
 title: "Today’s lesson: Mind the symlinks"
-categories: Unix
+categories:
+  - Unix
 ---
 
 Probably every day I keep learning new things, without even realizing it most of the time. The vast majority of them are minor or even tiny tidbits of knowledge; but even these might be worth noting down from time to time, especially when they are tiny pitfalls I’d fallen into and spent a couple of minutes getting out. By sharing them, I might hopefully prevent someone else for slipping and falling in.

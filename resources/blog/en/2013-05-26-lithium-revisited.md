@@ -1,7 +1,9 @@
 ---
 date: 2013-05-26
 title: "Lithium revisited: A 16-bit kernel (well, sort of) written in Clojure (well, sort of)"
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 Remember [Lithium][0]? The x86 assembler written in Clojure, and a simple stripes effect written in it? Well, here’s another take on that effect:

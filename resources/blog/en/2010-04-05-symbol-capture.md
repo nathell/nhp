@@ -1,7 +1,9 @@
 ---
 title: A case for symbol capture
 date: 2010-04-05
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 Clojure by default protects macro authors from incidentally capturing a local symbol. Stuart Halloway [describes this][1] in more detail, explaining why this is a Good Thing. However, sometimes this kind of symbol capture is called for. I’ve encountered one such case today while hacking a Swing application.

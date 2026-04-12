@@ -1,7 +1,8 @@
 ---
 title: Downcasing strings
 date: 2010-02-16
-categories: Unix
+categories:
+  - Unix
 ---
 
 I just needed to convert a big (around 200 MB) text file, encoded in UTF-8 and containing Polish characters, all into lowercase. `tr` to the rescue, right? Well, not quite.

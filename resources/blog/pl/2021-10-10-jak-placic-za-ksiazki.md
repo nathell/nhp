@@ -1,7 +1,8 @@
 ---
 date: 2021-10-10
 title: Jak płacić za książki
-categories: imperator-wszechświata
+categories:
+  - imperator wszechświata
 ---
 
 ## Fortuna imperatrix mundi

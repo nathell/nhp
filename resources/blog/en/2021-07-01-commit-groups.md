@@ -1,7 +1,9 @@
 ---
 title: "Things I wish Git had: Commit groups"
 date: 2021-07-01
-categories: git programming
+categories:
+  - git
+  - programming
 ---
 
 ## Intro

@@ -3,7 +3,10 @@ layout: theme:post
 title: "Pierwsze użycie: protokoły i git-bisect"
 date: 2011-01-13
 comments: true
-categories: Clojure Fablo programowanie
+categories:
+  - Clojure
+  - Fablo
+  - programowanie
 ---
 
 Lubię rozwiązywać problemy przy użyciu narzędzi, których dotychczas

@@ -3,7 +3,10 @@ layout: theme:post
 title: ClojureScript
 date: 2011-07-21
 comments: true
-categories: Clojure JavaScript programowanie
+categories:
+  - Clojure
+  - JavaScript
+  - programowanie
 ---
 
 Rich Hickey, autor Clojure, wyrasta na Steve'a Jobsa nowoczesnych

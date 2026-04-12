@@ -1,7 +1,10 @@
 ---
 date: 2014-05-20
 title: You already use Lisp syntax
-categories: Clojure Lisp programming
+categories:
+  - Clojure
+  - Lisp
+  - programming
 ---
 
 **Unix Developer:** I’m not going to touch Lisp. It’s horrible!

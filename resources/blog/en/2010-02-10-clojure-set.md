@@ -1,7 +1,10 @@
 ---
 title: Clojure SET
 date: 2010-02-10
-categories: Clojure games programming
+categories:
+  - Clojure
+  - games
+  - programming
 ---
 
 I’ve just taken a short breath off work to put [some code][1] on GitHub that I had written over one night some two months ago. It is an implementation of the [Set][2] game in Clojure, using Swing for GUI.

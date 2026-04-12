@@ -1,7 +1,9 @@
 ---
 date: 2018-11-11
 title: Święto niepodległości
-categories: emocje polityka
+categories:
+  - emocje
+  - polityka
 ---
 
 Wychowałem się w przemocowym domu.

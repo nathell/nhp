@@ -2,7 +2,8 @@
 layout: theme:post
 title: Zawalanie 101
 date: 2015-04-29
-categories: co-robić-jak-żyć
+categories:
+  - co robić, jak żyć
 ---
 
 Dziś będzie o tym, jak zawalać sprawy i przeżyć.

@@ -1,7 +1,11 @@
 ---
 date: 2024-01-26
 title: Lossy CSS compression for fun and loss (or profit)
-categories: programming clojure css math
+categories:
+  - programming
+  - Clojure
+  - CSS
+  - math
 ---
 
 ## What

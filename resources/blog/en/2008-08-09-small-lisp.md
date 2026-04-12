@@ -1,7 +1,9 @@
 ---
 date: 2008-08-09
 title: "Who said Common Lisp programs cannot be small?"
-categories: Lisp programming
+categories:
+  - Lisp
+  - programming
 ---
 
 So, how much disk space does your average CL image eat up? A hundred megs? Fifty? Twenty? Five, perhaps, if you’re using LispWorks with a tree-shaker? Well then, how about this?

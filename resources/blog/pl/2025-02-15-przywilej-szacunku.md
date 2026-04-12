@@ -1,7 +1,9 @@
 ---
 date: 2025-02-15
 title: Przywilej szacunku
-categories: internet scrappy-thoughts
+categories:
+  - internet
+  - scrappy thoughts
 ---
 
 [Bartłomiej Kluska na Substacku][1]:

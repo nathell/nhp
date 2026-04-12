@@ -1,7 +1,10 @@
 ---
 title: "Combining virtual sequences<br>or, Sequential Fun with Macros<br>or, How to Implement Clojure-Like Pseudo-Sequences with Poor Man’s Laziness in a Predominantly Imperative Language"
 date: 2011-12-09
-categories: Clojure Lisp programming
+categories:
+  - Clojure
+  - Lisp
+  - programming
 ---
 
 ## Sequences and iteration

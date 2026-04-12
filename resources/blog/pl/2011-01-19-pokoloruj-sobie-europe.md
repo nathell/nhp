@@ -3,7 +3,9 @@ layout: theme:post
 title: "Pokoloruj sobie Europę!"
 date: 2011-01-19
 comments: true
-categories: Clojure programowanie
+categories:
+  - Clojure
+  - programowanie
 ---
 
 To jest druga część minicyklu zapoczątkowanego [artykułem o zipperach][1].

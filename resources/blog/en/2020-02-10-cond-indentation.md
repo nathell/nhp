@@ -1,7 +1,10 @@
 ---
 date: 2020-02-10
 title: Indenting cond forms
-categories: Lisp Clojure programming
+categories:
+  - Lisp
+  - Clojure
+  - programming
 ---
 
 Indentation matters when reading Clojure code. It is the primary visual cue that helps the reader discern the code structure. Most Clojure code seen in the wild conforms to either the [community style guide][1] or the proposed [simplified rules][2]; the existing editors make it easy to reformat code to match them.

@@ -1,7 +1,9 @@
 ---
 title: The TeX Hackery
 date: 2008-04-06
-categories: LaTeX TeX
+categories:
+  - LaTeX
+  - TeX
 ---
 
 After a longish while of inactivity, I finally got around to finishing the draft spec of a next-generation protocol for [Poliqarp][1], the be-all-end-all corpus concordance tool that I maintain. The spec is being written in LaTeX, and it has a number of subsections that describe particular methods of the protocol. Each one of those is further divided into sub-subsections that describe the method’s signature, purpose, syntax of request, syntax of response, and an optional example. I thought to write a couple of macros to help me separate the document’s logic from details of formatting, so that I could say:

@@ -1,7 +1,9 @@
 ---
 date: 2008-04-25
 title: Best OS ever
-categories: Ubuntu admin
+categories:
+  - Ubuntu
+  - admin
 ---
 
 If you are reading this on a box that does not have an impressive amount of RAM (say, 512 MB or less) and is running a fairly recent Linux, then for goodness sake, drop everything you are doing right now and follow the instructions in this entry. I’m going to show you how to make your system use the memory in a more efficient way, _yielding an effect almost equivalent to increasing its amount — with no expenses whatsoever!_ Sounds good? Read on.

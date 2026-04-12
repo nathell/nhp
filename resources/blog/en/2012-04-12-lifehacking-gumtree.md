@@ -1,7 +1,10 @@
 ---
 date: 2012-04-12
 title: "Lifehacking: How to get cheap home equipment using Clojure"
-categories: Clojure lifehacking programming
+categories:
+  - Clojure
+  - lifehacking
+  - programming
 ---
 
 I’ve moved to London last September. Like many new Londoners, I have changed accommodation fairly quickly, being already after one removal and with another looming in a couple of months; my current flat was largely unfurnished when I moved in, so I had to buy some basic homeware. I didn’t want to invest much in it, since it’d be only for a few months. Luckily, it is not hard to do that cheaply: many people are moving out and getting rid of their stuff, so quite often you can search for the desired item on [Gumtree][1] and find there’s a cheap one a short bike ride away.

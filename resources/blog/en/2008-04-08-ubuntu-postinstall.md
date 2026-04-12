@@ -1,7 +1,9 @@
 ---
 title: Ubuntu post-installation tricks
 date: 2008-04-07
-categories: Ubuntu admin
+categories:
+  - Ubuntu
+  - admin
 ---
 
 Yesterday, my level of frustration with my old operating system at work exceeded a critical point, and I installed a fresh daily build of the not-yet-released [Ubuntu 8.04][1] in place of it. Then, in addition to usual post-installation chores like setting up mail, hardware, etc., I performed a couple of steps to make the system more pleasurable to use. Here’s what I did, just in case someone finds this useful.

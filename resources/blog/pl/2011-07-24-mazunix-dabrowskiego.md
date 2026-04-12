@@ -3,7 +3,9 @@ layout: theme:post
 title: MazUNIX Dąbrowskiego
 date: 2011-07-24
 comments: true
-categories: humor Unix
+categories:
+  - humor
+  - Unix
 ---
 
 ```

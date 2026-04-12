@@ -1,7 +1,11 @@
 ---
 date: 2008-04-14
 title: I’m not playing this stupid game anymore
-categories: C++ Scrabble poetry programming
+categories:
+  - C++
+  - Scrabble
+  - poetry
+  - programming
 ---
 
 Not until the next tournament, that is. My achievements in the 12th Scrabble Championship of Warsaw can be described as “mediocre” at best; four won, one drawn and seven lost games mean that my general rating will drop down by two points or so. Oh well. Everybody knows it’s a stupid game. ;-) At least I’ve managed to get a decent small score, with an average of 377 points per game.

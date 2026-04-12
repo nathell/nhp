@@ -4,6 +4,7 @@ title: "O łącznikach i myślnikach w metrze, czyli dlaczego typografii powinno
 date: 2010-11-07
 comments: true
 categories:
+  - typografia
 ---
 
 Lubię ekrany informacyjne zainstalowane w metrze warszawskim, tak na

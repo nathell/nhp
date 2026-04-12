@@ -1,7 +1,9 @@
 ---
 title: A quirk with JavaScript closures
 date: 2011-05-15
-categories: JavaScript programming
+categories:
+  - JavaScript
+  - programming
 ---
 
 I keep running into this obstacle every now and then. Consider this example:

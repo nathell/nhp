@@ -1,7 +1,8 @@
 ---
 date: 2022-08-18
 title: I love my GPD Micro PC
-categories: computers
+categories:
+  - computers
 ---
 
 I bought two computers this year: a beefy Macbook Pro with M1 Pro and a GPD Micro PC.

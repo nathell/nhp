@@ -3,7 +3,10 @@ layout: theme:post
 title: O książkach technologicznych i ich tłumaczeniach
 date: 2013-02-01
 comments: true
-categories: Clojure programowanie tłumaczenia
+categories:
+  - Clojure
+  - programowanie
+  - tłumaczenia
 ---
 
 > _Trudna rzecz jest jeden język drugim językiem dostatecznie wyrznąć._

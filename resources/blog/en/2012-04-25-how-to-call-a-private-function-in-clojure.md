@@ -1,7 +1,9 @@
 ---
 date: 2012-04-25
 title: How to call a private function in Clojure
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 **tl;dr:** Don’t do it. If you really have to, use `(#'other-library/private-function args)`.

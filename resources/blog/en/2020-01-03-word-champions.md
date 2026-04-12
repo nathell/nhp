@@ -1,7 +1,10 @@
 ---
 date: 2020-01-03
 title: Word Champions
-categories: Clojure programming re-frame
+categories:
+  - Clojure
+  - programming
+  - re-frame
 ---
 
 This story begins on August 9, 2017, when a friend messaged me on Facebook: “Hey, I’m going to be on a TV talent show this weekend. They’ll be giving me this kind of problems. Any ideas how to prepare?”

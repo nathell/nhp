@@ -3,7 +3,9 @@ layout: theme:post
 title: Zippery w Clojure
 date: 2010-11-25
 comments: true
-categories: Clojure programowanie
+categories:
+  - Clojure
+  - programowanie
 ---
 
 Niniejszy artykuł jest pierwszym z dwuczęściowego minicyklu,

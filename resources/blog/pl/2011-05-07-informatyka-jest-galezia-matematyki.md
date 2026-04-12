@@ -3,7 +3,9 @@ layout: theme:post
 title: Informatyka jest gałęzią matematyki
 date: 2011-05-07
 comments: true
-categories: informatyka matematyka
+categories:
+  - informatyka
+  - matematyka
 ---
 
 [Claygirl pisze na blogu GeekGirls][1], że wbrew powszechnemu

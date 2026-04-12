@@ -1,7 +1,8 @@
 ---
 date: 2025-02-01
 title: Na połowie czasu
-categories: scrappy-thoughts
+categories:
+  - scrappy thoughts
 ---
 
 > <i>W życia wędrówce, na połowie czasu,<br>

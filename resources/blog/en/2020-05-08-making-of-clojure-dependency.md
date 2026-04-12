@@ -1,7 +1,10 @@
 ---
 date: 2020-05-08
 title: Making of “Clojure as a dependency”
-categories: Lisp Clojure programming
+categories:
+  - Lisp
+  - Clojure
+  - programming
 ---
 
 In my previous post, [“Clojure as a dependency”][1], I’ve presented the results of some toy research on Clojure version numbers seen in the wild. I’m a big believer in [reproducible research][2], so I’m making available a [Git repo][3] that contains code you can run yourself to reproduce these results. This post is an experience report from writing that code.

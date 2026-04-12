@@ -3,7 +3,8 @@ layout: theme:post
 title: Nadchodzi Wayland
 date: 2011-03-14
 comments: true
-categories: Linux
+categories:
+  - Linux
 ---
 
 Podczas jednego z ostatnich surfathlonów rzuciła mi się w oczy

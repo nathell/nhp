@@ -3,7 +3,9 @@ layout: theme:post
 title: "Leniwa wersja makra ->"
 date: 2010-11-11
 comments: true
-categories: Clojure programowanie
+categories:
+  - Clojure
+  - programowanie
 ---
 
 [Jacek Laskowski][1] podaje ciekawy [przykład wykorzystania monad w Clojure][2] --

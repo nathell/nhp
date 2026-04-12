@@ -1,7 +1,9 @@
 ---
 date: 2019-10-07
 title: Web of Documents
-categories: WWW Xanadu
+categories:
+  - WWW
+  - Xanadu
 ---
 
 In 1960, Ted Nelson envisioned a web of documents.

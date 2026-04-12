@@ -1,7 +1,9 @@
 ---
 date: 2008-06-23
 title: You win some, you lose some, you talk some
-categories: Scrabble presentation
+categories:
+  - Scrabble
+  - presentation
 ---
 
 After my [shameful performance][1] in the previous tournament, this weekend saw my greatest achievement in tournament Scrabble to date: that of advancing to the quarterfinals of the Cup of Poland. For the record, [here][2] are the final standings. In the quarterfinal, I lost both games to Tomasz Zwoliński (the former Champion of Poland), who went on to win the Cup.

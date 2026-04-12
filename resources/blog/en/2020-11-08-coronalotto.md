@@ -1,7 +1,9 @@
 ---
 title: I made a website to guess tomorrow’s number of COVID-19 cases, and here’s what happened
 date: 2020-11-08
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 ## Before

@@ -3,7 +3,9 @@ layout: theme:post
 title: Kod giętki
 date: 2014-05-06
 comments: true
-categories: poezja programowanie
+categories:
+  - poezja
+  - programowanie
 ---
 
 Ludzie dziwnie na mnie patrzą, kiedy powiadam, że programowanie i poezja mają ze sobą wiele wspólnego. A jednak uważam, że tak właśnie jest, i to co najmniej na kilku poziomach.

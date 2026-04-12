@@ -1,7 +1,11 @@
 ---
 date: 2014-09-13
 title: Happy Programmers’ Day!
-categories: Haskell Z-machine programmers-day programming
+categories:
+  - Haskell
+  - Z-machine
+  - programmers-day
+  - programming
 ---
 
 Happy [Programmers’ Day][1], everyone!

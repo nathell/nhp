@@ -1,7 +1,10 @@
 ---
 date: 2020-05-02
 title: Clojure as a dependency
-categories: Lisp Clojure programming
+categories:
+  - Lisp
+  - Clojure
+  - programming
 ---
 
 I have a shameful confession to make: I have long neglected an open-source library that I maintain, [clj-tagsoup][1].

@@ -1,7 +1,8 @@
 ---
 date: 2025-01-25
 title: Scrībere necesse est
-categories: scrappy-thoughts
+categories:
+  - scrappy thoughts
 ---
 
 [Lu Wilson][1] powtarza mantrę: [„normalise sharing scrappy fiddles”][2]. To dość enigmatyczne, więc spróbuję wyjaśnić to w punktach, tak jak to rozumiem:

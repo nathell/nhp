@@ -1,7 +1,9 @@
 ---
 date: 2023-07-20
 title: A visual tree iterator in Rust
-categories: programming rust
+categories:
+  - programming
+  - Rust
 ---
 
 My [adventure with learning Rust][1] continues. As a quick recap from the previous post, I’m writing a [tree viewer][2]. I have now completed another major milestone, which is to rewrite the tree-printing function to use an iterator. (Rationale: it makes the code more reusable – I can, for instance, easily implement a tree-drawing view for [Cursive][3] with it.)

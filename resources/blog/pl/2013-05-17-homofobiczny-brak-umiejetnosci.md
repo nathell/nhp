@@ -3,7 +3,9 @@ layout: theme:post
 title: Homofobiczny brak umiejętności czytania ze zrozumieniem
 date: 2013-05-17
 comments: true
-categories: homofobia debunk
+categories:
+  - homofobia
+  - debunk
 ---
 
 Takie coś mnie zaatakowało na Facebooku:

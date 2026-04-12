@@ -1,7 +1,10 @@
 ---
 title: The pitfalls of <code>lein swank</code>
 date: 2010-03-31
-categories: Clojure Leiningen programming
+categories:
+  - Clojure
+  - Leiningen
+  - programming
 ---
 
 A couple of weeks ago I finally got around to acquainting myself with [Leiningen][1], one of the most popular build tools for Clojure. The thing that stopped me the most was that Leiningen uses [Maven][2] under the hood, which seemed a scary beast at first sight — but once I’ve overcome the initial fear, it turned out to be a quite simple and useful tool.

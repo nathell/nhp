@@ -1,7 +1,9 @@
 ---
 title: Sunflower
 date: 2010-04-18
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 The program I’ve been [writing about recently][1] has come to a point where I think it can be shown to the wide public. It’s called [Sunflower][2] and has its home on GitHub. It’s nowhere near being completed, and of alpha quality right now, but even at this stage it might be useful.

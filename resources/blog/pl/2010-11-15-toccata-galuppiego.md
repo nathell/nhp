@@ -3,7 +3,9 @@ layout: theme:post
 title: "Wiersze nieprzetłumaczalne: Robert Browning, „Toccata Galuppiego”"
 date: 2010-11-15
 comments: true
-categories: poezja tłumaczenia
+categories:
+  - poezja
+  - tłumaczenia
 ---
 
 „Nie ma wierszy nieprzekładalnych, są tylko leniwi tłumacze”. Taki

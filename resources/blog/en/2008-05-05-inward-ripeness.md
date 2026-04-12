@@ -1,7 +1,9 @@
 ---
 date: 2008-05-05
 title: Inward ripeness
-categories: life poetry
+categories:
+  - life
+  - poetry
 ---
 
 > How soon hath Time, the subtle thief of youth,<br>

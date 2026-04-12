@@ -3,7 +3,8 @@ layout: theme:post
 title: "Przeczytane: Sen elektryka (Wiesław Myśliwski, „Traktat o łuskaniu fasoli”)"
 date: 2011-02-28
 comments: true
-categories: przeczytane
+categories:
+  - przeczytane
 ---
 
 Mówi się czasem, że zapamiętujemy wszystko, co rejestrują nasze

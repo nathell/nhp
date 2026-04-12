@@ -1,7 +1,9 @@
 ---
 date: 2023-07-06
 title: Learning to learn Rust
-categories: programming rust
+categories:
+  - programming
+  - Rust
 ---
 
 I’m enjoying a two-month sabbatical this summer. It’s been great so far! I’ve used almost half of the time to [cycle through the entire Great Britain][1] and let my body work physically and my mind rest (usually, the opposite is true). And now that I’m back, I’ve switched focus to a few personal projects that I have really wanted to work on for a while but never found time.

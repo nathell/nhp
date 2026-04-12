@@ -1,7 +1,8 @@
 ---
 date: 2022-09-24
 title: How to pay for books
-categories: emperor-of-the-universe
+categories:
+  - emperor of the universe
 ---
 
 _This post was originally [published in Polish][0]. This translation has been slightly edited to explain some details that are likely to be obscure for people outside Poland._

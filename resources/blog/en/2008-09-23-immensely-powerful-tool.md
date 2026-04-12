@@ -1,7 +1,8 @@
 ---
 date: 2008-09-23
 title: The immensely powerful tool
-categories: life
+categories:
+  - life
 ---
 
 A pen and a sheet of paper are simple utilities; but there lies vast and sheer power in them that I was not aware of. Up until now. So what can they be used for that one might possibly not realize?

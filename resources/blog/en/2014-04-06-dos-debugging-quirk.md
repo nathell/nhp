@@ -1,7 +1,10 @@
 ---
 date: 2014-04-06
 title: DOS debugging quirk
-categories: DOS assembly programming
+categories:
+  - DOS
+  - assembly
+  - programming
 ---
 
 While hacking on Lithium, I’ve noticed an interesting thing. Here’s a sample DOS program in assembly (TASM syntax):

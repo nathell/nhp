@@ -1,7 +1,9 @@
 ---
 title: Color your own Europe with Clojure!
 date: 2011-07-11
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 This is a slightly edited translation of [an article][1] I first published on my Polish blog on January 19, 2011. It is meant to target newcomers to Clojure and show how to use Clojure to solve a simple real-life problems.

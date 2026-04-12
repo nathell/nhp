@@ -1,7 +1,10 @@
 ---
 date: 2008-12-18
 title: anti-procrastination.el
-categories: Emacs procrastination programming
+categories:
+  - Emacs
+  - procrastination
+  - programming
 ---
 
 Fighting procrastination has been my major concern these days. I’ve devised a number of experimental tools to help me with that. One of them is called [snafu][1] and can generate reports of your activity throughout the whole day of work. It’s in a preliminary state, but works (at least since I’ve found and fixed a long-standing bug in it which would cause it to barf every now and then), and I already have a number of ideas for its further expansion.

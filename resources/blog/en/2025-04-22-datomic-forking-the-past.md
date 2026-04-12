@@ -2,7 +2,10 @@
 date: 2025-04-22
 title: No, really, you can’t branch Datomic from the past
 subtitle: "(and what you can do instead)"
-categories: programming clojure datomic
+categories:
+  - programming
+  - Clojure
+  - Datomic
 ---
 
 I have a love-hate relationship with [Datomic][1]. Datomic is a Clojure-based database based on a record of immutable facts; this post assumes a passing familiarity with it – if you haven’t yet, I highly recommend checking it out, it’s enlightening even if you end up not using it.

@@ -3,7 +3,8 @@ layout: theme:post
 title: Moja ulica murem podzielona
 date: 2012-12-04
 comments: true
-categories: migawki
+categories:
+  - migawki
 ---
 
 Autobus zjeżdżający z gór wysadza nas na przystanku u bramy starego

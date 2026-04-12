@@ -1,7 +1,9 @@
 ---
 date: 2008-06-23
 title: "cl-morfeusz: A ninety minutes’ hack"
-categories: Lisp programming
+categories:
+  - Lisp
+  - programming
 ---
 
 Here’s what I came up with today, after no more than 90 minutes of coding (complete with comments and all):

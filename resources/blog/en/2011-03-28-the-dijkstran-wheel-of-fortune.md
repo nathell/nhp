@@ -1,7 +1,11 @@
 ---
 title: "The Dijkstran wheel of fortune: SPSS, Excel, VBA"
 date: 2011-03-28
-categories: Excel SPSS VB programming
+categories:
+  - Excel
+  - SPSS
+  - VB
+  - programming
 ---
 
 > It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration.

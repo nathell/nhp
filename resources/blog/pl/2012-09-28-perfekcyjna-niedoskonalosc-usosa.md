@@ -3,7 +3,10 @@ layout: theme:post
 title: Perfekcyjna niedoskonałość USOS-a
 date: 2012-09-28
 comments: true
-categories: USOS, programowanie, rant
+categories:
+  - USOS
+  - programowanie
+  - rant
 ---
 
 [Rzeczpospolita][1] pisze o problemach z [USOS-em][2]:

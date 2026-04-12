@@ -1,7 +1,10 @@
 ---
 date: 2008-04-24
 title: Hacking away with JSON-RPC
-categories: Lisp Poliqarp programming
+categories:
+  - Lisp
+  - NLP
+  - programming
 ---
 
 Let’s try:

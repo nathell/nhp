@@ -2,7 +2,10 @@
 date: 2025-02-21
 title: Double, double toil and trouble
 subtitle: or, Corner-Cases of Comparing Clojure Numbers
-categories: programming clojure wat
+categories:
+  - programming
+  - Clojure
+  - wat
 ---
 
 [Let’s talk about][1] Clojure.

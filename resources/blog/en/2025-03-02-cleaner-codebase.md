@@ -1,7 +1,8 @@
 ---
 date: 2025-03-02
 title: Cleaner codebase, happier mind
-categories: programming
+categories:
+  - programming
 ---
 
 This is my home-office desk on a typical day. Yuck – look at those mugs, cables and rubbish!

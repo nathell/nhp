@@ -1,7 +1,10 @@
 ---
 date: 2021-11-09
 title: Jestem Polakiem, więc mam typografię polską
-categories: typografia banknoty polityka
+categories:
+  - typografia
+  - banknoty
+  - polityka
 ---
 
 „Mickiewicz wielki poeta, ale kto go zna, a mnie śpiewa cała Polska i Ukraina” — mawiał o sobie [Tomasz Padura][1], któremu przypisuje się czasem autorstwo znanej wszystkim piosenki „Hej, sokoły”. Błędne to przypisanie — autor słów nie jest znany — ale anegdotkę uważam za przednią.

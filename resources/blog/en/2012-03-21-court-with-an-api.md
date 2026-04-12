@@ -1,7 +1,8 @@
 ---
 date: 2012-03-21
 title: Ever wanted to programmatically file a lawsuit? In Poland, you can.
-categories: programming
+categories:
+  - programming
 ---
 
 This has somehow escaped me: just over a year ago, the Sixth Civil Division of the Lublin-West Regional Court in Lublin, Poland, has opened its [online branch][1]. It serves the entire territory of Poland and is competent to recognize lawsuits concerning payment claims. There is [basic information][2] available in English. It has proven immensely popular, having processed about two million cases in its first year of operation.

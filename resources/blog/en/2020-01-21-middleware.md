@@ -1,7 +1,10 @@
 ---
 date: 2020-01-21
 title: Careful with that middleware, Eugene
-categories: Clojure programming Skyscraper
+categories:
+  - Clojure
+  - programming
+  - Skyscraper
 ---
 
 ## Prologue

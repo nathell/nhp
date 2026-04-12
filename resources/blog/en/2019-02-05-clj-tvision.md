@@ -1,7 +1,9 @@
 ---
 date: 2019-02-05
 title: Re-framing text-mode apps
-categories: Clojure programming
+categories:
+  - Clojure
+  - programming
 ---
 
 ## Intro

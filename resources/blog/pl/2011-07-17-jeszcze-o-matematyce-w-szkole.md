@@ -3,7 +3,9 @@ layout: theme:post
 title: Jeszcze o matematyce w szkole
 date: 2011-07-17
 comments: true
-categories: matematyka matura
+categories:
+  - matematyka
+  - matura
 ---
 
 Zaczęło się od [listu maturzystki][1] opublikowanego przez Gazetę

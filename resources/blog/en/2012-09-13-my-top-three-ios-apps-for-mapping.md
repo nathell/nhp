@@ -1,7 +1,12 @@
 ---
 date: 2012-09-13
 title: My top three iOS apps for mapping
-categories: UK cycling hiking iOS iPhone
+categories:
+  - UK
+  - cycling
+  - hiking
+  - iOS
+  - iPhone
 ---
 
 Living in London means that I now have a whole lot of new area to explore by cycling or walking. I try to take every opportunity to spend a free day or weekend out. One of the most important things when on the move is knowing where you are, where to go, and how to get there — and for that, you need a map. As I soon learned, the maps to use in the UK are the Ordnance Survey ones (either the Landranger/Explorer series, or maps by another publisher, such as AA, based on OS data). However, the Landranger series encompasses over 200 1:50000 maps, standing at some £8 each, and when that level of detail is not enough, there are more than 400 Explorer maps on top of that. Not only does this get pricey after a while, but also the sheer volume of map juggling quickly becomes impractical when you cycle a lot outside of town.

@@ -3,7 +3,9 @@ layout: theme:post
 title: "Clojure: czyszczenie dowiązań lokalnych"
 date: 2011-01-31
 comments: true
-categories: Clojure programowanie
+categories:
+  - Clojure
+  - programowanie
 ---
 
 O jednej z nowych cech Clojure 1.2 dowiedziałem się dopiero niedawno,
