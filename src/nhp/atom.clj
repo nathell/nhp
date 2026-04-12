@@ -30,10 +30,8 @@
        t/instant
        str))
 
-(defn post-domainless-url [{{date :date} :front-matter, slug :slug}]
-  (format "/%s/%s/"
-          (t/format "yyyy/MM/dd" (t/local-date-time date "UTC"))
-          slug))
+(defn post-domainless-url [{:keys [slug]}]
+  (str "/" slug "/"))
 
 (defn post-url [{:keys [lang] :as post}]
   (str "http://" (lang->domain lang) (post-domainless-url post)))
