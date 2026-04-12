@@ -13,6 +13,7 @@ $purple: #7F4B61
 $black: #333
 $gray: lighten($black, 20)
 $light-gray: lighten($black, 50)
+$less-pale: darken($pale, 20)
 
 @font-face
   font-family: 'Bona Nova'
@@ -100,6 +101,13 @@ a
   text-decoration: none
   &:hover
     text-shadow: 0 0 3px $purple
+
+figure
+  display: flex
+  flex-direction: column
+  gap: 12px
+  figcaption
+    text-align: center
 
 h1
   text-align: center
@@ -311,3 +319,59 @@ h2
   li
     display: inline-block
     margin-left: 18px
+
+.bubble-wrap
+  display: flex
+  flex-direction: row
+  padding-bottom: 24px
+
+  .author
+    object-fit: contain
+    width: 48px
+    height: 48px
+    align-self: end
+    flex-grow: 0
+    flex-shrink: 0
+    margin-bottom: -24px
+
+  .bubble
+    --r: 1em   /* the radius */
+    --t: 1.5em /* the size of the tail */
+
+    flex: 1
+    max-width: 100%
+    padding: 1em
+    border-inline: var(--t) solid #0000
+    border-radius: calc(var(--r) + var(--t))/var(--r)
+    mask: radial-gradient(100% 100% at var(--_p) 0,#0000 99%,#000 102%) var(--_p) 100%/var(--t) var(--t) no-repeat, linear-gradient(#000 0 0) padding-box
+
+    pre
+      position: static
+      width: auto
+      left: 0
+    p:first-child
+      margin-top: 0
+    p:last-child
+      margin-bottom: 0
+
+  &.me
+    .author
+      margin-left: 9px
+      content: url(/img/dj.jpg)
+      order: 1
+    .bubble
+      background: $less-pale
+      --_p: 100%
+      border-bottom-right-radius: 0 0
+      place-self: end
+
+  &.claude
+    .author
+      content: url(/img/blog/claude-logo.svg)
+      margin-right: 9px
+    .bubble
+      background: $purple
+      color: $pale
+      --_p: 0
+      border-bottom-left-radius: 0 0
+      place-self: start
