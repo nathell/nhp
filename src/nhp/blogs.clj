@@ -8,6 +8,7 @@
     #_ [nhp.gemini :as gemini] ;; temporarily disabled
     [nhp.layout :as layout]
     [nhp.markdown :as md]
+    [nhp.slug :as slug]
     [yaml.core :as yaml]))
 
 (defn instant->local-date
@@ -25,12 +26,14 @@
          :blog-subtitle "Daniel Janus’s blog"
          :home-page "home page"
          :read-more "Continue reading"
+         :posts-in "Posts in category"
          :next-page "Next posts"
          :prev-page "Previous posts"}
    "pl" {:blog-title "kod • słowa • emocje"
          :blog-subtitle "blog Daniela Janusa"
          :home-page "strona główna"
          :read-more "Czytaj dalej"
+         :posts-in "Posty w kategorii"
          :next-page "Następne notki"
          :prev-page "Poprzednie notki"}})
 
@@ -83,12 +86,21 @@
     (when date-fn
       (date-fn (:date front-matter)))))
 
-(defn post [{{title :title, subtitle :subtitle} :front-matter, content :content, extra :extra :as blog}]
+(defn category-url [cat]
+  (str "/category/" (slug/slugify cat) "/"))
+
+(defn post [{{:keys [title subtitle categories]} :front-matter, content :content, extra :extra :as blog}]
   [:div.blog-post {:class (when subtitle "has-subtitle")}
    [:h2.title (unsierotkize title)]
    (when subtitle
      [:h3.subtitle (unsierotkize subtitle)])
-   [:p.date (blog-date blog)]
+   [:div.date (blog-date blog)
+    (when (seq categories)
+      (list
+       " • "
+       [:ul.post-categories
+        (for [category categories]
+          [:li [:a {:href (category-url category)} category]])]))]
    [:div.body content]
    extra])
 
@@ -98,6 +110,11 @@
   (if (= i 1)
     "/"
     (str "/page/" i "/")))
+
+(defn category-page-url [cat-slug i]
+  (if (= i 1)
+    (str "/category/" cat-slug "/")
+    (str "/category/" cat-slug "/page/" i "/")))
 
 (defn navigation [prev-url prev-title next-url next-title]
   [:div.blog-navigation
@@ -116,6 +133,12 @@
   (navigation (when (> page-no 1) (page-url (dec page-no)))
               (get-in i18n [lang :prev-page])
               (when (< page-no page-count) (page-url (inc page-no)))
+              (get-in i18n [lang :next-page])))
+
+(defn category-page-navigation [lang cat-slug page-no page-count]
+  (navigation (when (> page-no 1) (category-page-url cat-slug (dec page-no)))
+              (get-in i18n [lang :prev-page])
+              (when (< page-no page-count) (category-page-url cat-slug (inc page-no)))
               (get-in i18n [lang :next-page])))
 
 (defn blog-header [lang]
@@ -163,9 +186,7 @@
                 :content [:div.main.blog
                           (blog-header (:lang (first blogs)))
                           (map #(post (trim-blog %)) blogs)
-                          (page-navigation (-> blogs first :lang) page-no page-count)
-                          [:script {:src "/js/highlight.pack.js"}]
-                          [:script "hljs.initHighlightingOnLoad();"]]}))
+                          (page-navigation (-> blogs first :lang) page-no page-count)]}))
 
 (def entries-per-page 10)
 
@@ -199,11 +220,48 @@
     (layout/output-page (str (lang->domain lang) "/atom.xml")
                         (atom/feed-string blogs))))
 
+(defn all-categories [blogs]
+  (->> blogs
+       (mapcat (comp #(or % []) :categories :front-matter))
+       distinct))
+
+(defn posts-for-category [blogs category]
+  (filter #(some #{category} (get-in % [:front-matter :categories])) blogs))
+
+(defn blog-category-page [category cat-slug page-no page-count blogs]
+  (let [lang (:lang (first blogs))
+        title (str "Daniel Janus – " category)]
+    (layout/page {:title title
+                  :extra-head [[:link {:rel "stylesheet" :type "text/css" :href "/css/ascetic.css"}]
+                               [:link {:rel "alternate" :type "application/atom+xml"
+                                       :href (str "/category/" cat-slug "/atom.xml")}]]
+                  :content [:div.main.blog
+                            (blog-header lang)
+                            [:h2.title (get-in i18n [lang :posts-in]) ": " category]
+                            (map #(post (trim-blog %)) blogs)
+                            (category-page-navigation lang cat-slug page-no page-count)]})))
+
+(defn emit-category-pages [blogs]
+  (let [lang (-> blogs first :lang)
+        domain (lang->domain lang)]
+    (doseq [category (all-categories blogs)
+            :let [cat-posts (posts-for-category blogs category)
+                  cat-slug (slug/slugify category)
+                  cat-title (str "Daniel Janus – " category)
+                  pages (partition-all entries-per-page cat-posts)
+                  page-count (count pages)]]
+      (doseq [[i page-posts] (map-indexed (fn [i v] [(inc i) v]) pages)]
+        (layout/output-page (str domain (category-page-url cat-slug i) "index.html")
+                            (blog-category-page category cat-slug i page-count page-posts)))
+      (layout/output-page (str domain "/category/" cat-slug "/atom.xml")
+                          (atom/category-feed-string cat-posts cat-slug cat-title)))))
+
 (defn generate-blog [lang]
   (let [blogs (read-all-blogs lang)]
     (emit-multi-blog-pages blogs)
     (emit-single-blog-pages blogs)
     (emit-atom-feed blogs)
+    (emit-category-pages blogs)
     #_(emit-gemini-blog blogs)))
 
 (defn generate []

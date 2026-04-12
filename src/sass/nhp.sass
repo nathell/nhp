@@ -84,7 +84,7 @@ body
 .main
   justify-content: center
 
-p, ul, ol, .blog-navigation
+p, ul, ol, .date, .blog-navigation
   font-size: 24px
   +mobile
     font-size: 18px
@@ -203,6 +203,16 @@ h2
     &.has-subtitle
       h2.title
         margin-bottom: 12px
+  .post-categories
+    padding-left: 0
+    display: inline
+    list-style: none
+    li
+      display: inline
+      &:after
+        content: ", "
+      &:last-child:after
+        content: ""
   h2.title, h3.subtitle
     margin-bottom: 24px
     font-weight: bold

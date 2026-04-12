@@ -62,3 +62,19 @@
 
 (defn feed-string [posts]
   (xml/indent-str (feed posts)))
+
+(defn category-feed [posts cat-slug cat-title]
+  (let [lang (:lang (first posts))]
+    {:tag ::atom/feed
+     :content (into
+               [{:tag ::atom/id, :content [(str "tag:" (lang->domain lang) ",2019:category:" cat-slug)]}
+                {:tag ::atom/title, :content [cat-title]}
+                {:tag ::atom/link, :attrs {:href (str "http://" (lang->domain lang) "/category/" cat-slug "/")}}
+                {:tag ::atom/updated, :content [(updated posts)]}
+                {:tag ::atom/author, :content [{:tag ::atom/name, :content "Daniel Janus"}
+                                               {:tag ::atom/uri, :content "http://danieljanus.pl"}
+                                               {:tag ::atom/email, :content "dj@danieljanus.pl"}]}]
+               (map post->entry posts))}))
+
+(defn category-feed-string [posts cat-slug cat-title]
+  (xml/indent-str (category-feed posts cat-slug cat-title)))
