@@ -70,7 +70,8 @@
 
 (defn read-all-blogs [lang]
   (->> (fs/list-dir (io/resource (str "blog/" lang)))
-       (filter #(string/ends-with? (str %) ".md"))
+       (filter #(and (string/ends-with? (str %) ".md")
+                     (not (string/starts-with? (.getName %) ".#"))))
        (map #(assoc (read-blog %) :lang lang))
        (sort-by (comp :date :front-matter))
        reverse))
